@@ -72,7 +72,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 > Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
 
 # Ferramentas
-> Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem python durante o projeto. 
+> Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. 
 
 # Cronograma
 > Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
