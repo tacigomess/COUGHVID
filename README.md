@@ -1,7 +1,7 @@
 # COUGHVID
 Projeto que faz parte da disciplina da UNICAMP de Ciência e Visualização de Dados em Saúde.
 
-# Projeto de Classificação de diagnóstico de COVID-19 baseado em características da tosse 
+# Classificação do Diagnóstico de COVID-19 baseado em características da tosse 
 
 # Projeto - Primeira Entrega
 
