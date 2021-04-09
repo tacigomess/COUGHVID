@@ -66,7 +66,12 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 > Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.
 
 # Bases de Dados
-> Elencar bases de dados candidatas a serem utilizadas no projeto.
+Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candidatas a serem usadas no projeto. Encontramos duas bases candidatas:
+* [Coughvid](https://zenodo.org/record/4048312#.YGzbTD9v-Uk)
+* [Virufy COVID-19](https://github.com/virufy/virufy-data)
+
+Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 17 áudios da Virufy COVID-19), além de possuir 3.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como se apresentou febre ou dor no corpo e se possuia algum tipo de condição respiratória (estes dados foram anotados pelo próprio paciente).
+[//]: # > Elencar bases de dados candidatas a serem utilizadas no projeto.
 
 # Metodologia
 > Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
