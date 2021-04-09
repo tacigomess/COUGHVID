@@ -48,13 +48,13 @@ Segue abaixo o modelo de como devem ser documentadas as entregas.
 
 O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação [*Ciência e Visualização de Dados em Saúde*](https://github.com/datasci4health/home), oferecida no primeiro semestre de 2021, na Unicamp.
 
-> Equipe:
-> |Nome  | RA | Especialização|
-> |--|--|--|
-> | Brunna Raphaelly Amaral da Silva   | 144566  | Saúde|
-> | Carolina Vieira Campos  | 263081  | Saúde|
-> | Gabriel Bianchin de Oliveira  | 230217  | Computação|
-> | Taciana Alessandra Gomes Cruz  | 107132  | Computação|
+ Equipe:
+ |Nome  | RA | Especialização|
+ |--|--|--|
+ | Brunna Raphaelly Amaral da Silva   | 144566  | Saúde|
+ | Carolina Vieira Campos  | 263081  | Saúde|
+ | Gabriel Bianchin de Oliveira  | 230217  | Computação|
+ | Taciana Alessandra Gomes Cruz  | 107132  | Computação|
 
 
 # Descrição Resumida do Projeto
