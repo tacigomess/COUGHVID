@@ -71,10 +71,29 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 * [Virufy COVID-19](https://github.com/virufy/virufy-data)
 
 Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 17 áudios da Virufy COVID-19), além de possuir 3.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como se apresentou febre ou dor no corpo e se possuia algum tipo de condição respiratória (estes dados foram anotados pelo próprio paciente).
-[//]: # > Elencar bases de dados candidatas a serem utilizadas no projeto.
+<!-- 
+> Elencar bases de dados candidatas a serem utilizadas no projeto. 
+-->
 
 # Metodologia
+Para realizar a atividade proposta, seguiremos a abordagem do KDD:
+1. Seleção da base de dados
+2. Limpeza e pré-processamento dos dados
+3. Análise exploratória, análise estatística e visualização dos dados
+4. Mineração de dados
+	* Utilização de algoritmos de aprendizado de máquina
+5. Interpretação e análise dos resultados
+
+Na segunda etapa, considerando que a base que utilizaremos será a Coughvid, iremos verificar se existem dados faltantes e faremos o pré-processamento dos áudios (inicialmente, pensamos em transformar os áudios em imagens e trabalharmos com algoritmos que lidam com esse tipo de dados).
+
+Na terceira etapa, iremos análisar possíveis padrões nos dados, tanto nos dados anotados quanto nas imagens geradas.
+
+Na quarta etapa, iremos utilizar classificadores de aprendizado de máquina para fazer a classificação das imagens.
+
+Na quinta etapa, iremos avaliar os resultados obtidos pelos classificadores da quarta etapa. Caso seja necessário, podemos retornar às etapas anteriores (segunda, terceira ou quarta etapa).
+<!--
 > Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
+-->
 
 # Ferramentas
 > Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. 
