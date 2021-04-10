@@ -41,8 +41,8 @@ Segue abaixo o modelo de como devem ser documentadas as entregas.
 
 # Modelo para Apresentação do Projeto
 
-# Projeto <Classificação do Diagnóstico de COVID-19 baseado em características da tosse>
-# Project <Classification of the COVID-19 Diagnosis based on cough characteristics>
+# Projeto '<Classificação do Diagnóstico de COVID-19 baseado em características da tosse>'
+# Project '<Classification of the COVID-19 Diagnosis based on cough characteristics>'
 
 # Apresentação
 
