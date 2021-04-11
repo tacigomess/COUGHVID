@@ -61,7 +61,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Descrição Resumida do Projeto
 Diante de uma situação pandêmica onde várias linhas de frente estão atuando para  descoberta e elaboração de testes de COVID-19 [1] [2] [3] mais rápidos e acessíveis para toda a população, com o objetivo de um maior controle contra a propagação do vírus. Decidimos trabalhar com uma proposta de teste rápido, não invasivo e em tempo real para o diagnóstico do COVID-19 baseando-nos tanto no áudio como nas características da tosse do paciente.
 
-A rápida detecção de uma pessoa com COVID-19 favorece a diminuição dos níveis de surtos locais, além da possibilidade do resguardo de vidas pela detecção da doença através de um sintoma que pode ser manifestado nos estágios iniciais [ ], levando a pessoa a procurar ajuda mais rápido.
+A rápida detecção de uma pessoa com COVID-19 favorece a diminuição dos níveis de surtos locais, além da possibilidade do resguardo de vidas pela detecção da doença através de um sintoma que pode ser manifestado nos estágios iniciais, levando a pessoa a procurar ajuda mais rápido.
 
 Seria inviável tanto no quesito da logística quanto financeiro a construção de testes físicos para toda população de um país utilizar diariamente ou sempre que for ter contato com outra pessoa. Com esse objetivo, estudos estão sendo feitos com o uso da Inteligência Artificial para tornar viável os testes rápidos, não invasivos e diários para a população. Assumindo assim um controle maior da situação durante a pandemia.
 
@@ -119,16 +119,19 @@ Na quinta etapa, iremos avaliar os resultados obtidos pelos classificadores da q
 -->
 
 # Ferramentas
-> Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. 
+ Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. 
 
 # Cronograma
 > Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
-> |Descrição  | Abril | Maio | Junho |
-> |--|--|--|--|
-> | Seleção dos dados | X |--|--|
-> | Pré-processamento dos dados |--| X |--|
-> | Análise exploratória e estatística |--| X | X |
-> | Mineração dos dados |--| X | X |
-> | Interpretação e conclusão |--|--| X |
-> | Apresentação do projeto |--|--| X | 
+
+Tomando como base a metodologia do KDD dividimos o cronograma em cada uma de suas etapas abaixo:
+
+ |Descrição  | Abril | Maio | Junho |
+ |--|--|--|--|
+ | Seleção dos dados | X |--|--|
+ | Pré-processamento dos dados |--| X |--|
+ | Análise exploratória e estatística |--| X | X |
+ | Mineração dos dados |--| X | X |
+ | Interpretação e conclusão |--|--| X |
+ | Apresentação do projeto |--|--| X | 
 
