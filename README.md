@@ -1,48 +1,63 @@
 # COUGHVID
 Projeto que faz parte da disciplina da UNICAMP de Ciência e Visualização de Dados em Saúde.
-
+<!--
 # Diagnóstico de COVID-19 baseado em características da tosse 
-
+-->
+<!--
 # Projeto - Primeira Entrega
-
+-->
+<!--
 O objetivo geral do projeto final desta disciplina é realizar a análise de dados relacionados à saúde, para usá-los em uma das seguintes possíveis tarefas: recomendação, estudo de associações, validação de hipóteses, análise exploratória, análise visual, análise comparativa e predição.
-
+-->
+<!--
 Na primeira entrega do projeto, seu grupo deverá:
-
+-->
+<!--
  - Criar um repositório GitHub ou GitLab **público** que será usado ao longo de todo o projeto (o link deverá ser submetido na atividade correspondente no Google Classroom da disciplina);
  - Organizar o repositório segundo a estrutura de diretórios proposta abaixo;
  - Editar arquivo README.md do repositório com a proposta inicial do projeto, segundo modelo descrito a seguir;
  - Disponibilizar vídeo de duração máxima de 3 minutos de apresentação da proposta do projeto. Não é necessário que todos os membros da equipe apareçam ou participem do vídeo.
-
+ -->
+<!--
 Após a primeira entrega, será agendada (em horário de aula) uma data de arguição da proposta de projeto. É obrigatória a participação de todos os membros durante o momento da arguição da proposta. Durante a arguição, os professores fornecerão feedbacks sobre a proposta e seu grupo poderá tirar dǘvidas sobre o encaminhamento do projeto. 
-
+-->
+<!--
 # Estrutura do Repositório
-
+-->
+<!--
 A fim de uniformizar os repositórios de projetos da disciplina, os diretórios de seu repositório deverão ser nomeados e utilizados segundo a estrutura sugerida em [Home - Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/), na seção "Directory structure".
-
+-->
+<!--
 Note que nem todos os diretórios ou arquivos serão necessários para todos os projetos. Foque em seguir o padrão para os diretórios que forem necessários. Não crie diretórios que não serão utilizados.
-
+-->
+<!--
 Seu repositório deverá obrigatoriamente conter o arquivo README.md, arquivo de documentação Markdown, que deverá conter a descrição do projeto conforme orientações a seguir.
-
-
+-->
+<!--
 # Editando Arquivo README.md
-
+-->
+<!--
 Este é um guia de como produzir documentação em Markdown. Para entender como criar documentos em Markdown no Github, veja o material/vídeo:
 [Guia de Uso do Markdown](https://github.com/mc-unicamp/oficinas/tree/master/docs).
-
+-->
+<!--
 Vide detalhes sobre o Markdown em: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
+-->
+<!--
 E mais especificamente sobre tabelas em: [Organizing information with tables](https://help.github.com/en/articles/organizing-information-with-tables)
-
+-->
+<!--
 Segue abaixo o modelo de como deve ser apresentado e documentado o projeto. Tudo o que for indicado entre `<...>` indica algo que deve ser substituído pelo indicado. No modelo são colocados exemplos ilustrativos, que serão substituídos pelos do seu projeto.
-
+-->
+<!--
 Segue abaixo o modelo de como devem ser documentadas as entregas.
 > Tudo o que aparecer neste modo de citação se refere algo que deve ser substituído pelo indicado. No modelo são colocados exemplos ilustrativos, que serão substituídos pelos do seu projeto.
-
+-->
+<!--
 # Modelo para Apresentação do Projeto
-
+-->
 # Projeto - Diagnóstico de COVID-19 baseado em características da tosse
-# Project -COVID-19 Diagnosis based on cough characteristics
+# Project - COVID-19 Diagnosis based on cough characteristics
 
 
 # Apresentação
@@ -90,7 +105,7 @@ Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que te
 -->
 
 # Metodologia
-Para realizar a atividade proposta, seguiremos a abordagem do KDD:
+Para realizar a atividade proposta, seguiremos a abordagem do *Knowledgment Discovery in Databases* (KDD):
 1. Seleção da base de dados
 2. Limpeza e pré-processamento dos dados
 3. Análise exploratória, análise estatística e visualização dos dados
@@ -98,9 +113,9 @@ Para realizar a atividade proposta, seguiremos a abordagem do KDD:
 	* Utilização de algoritmos de aprendizado de máquina
 5. Interpretação e análise dos resultados
 
-Na segunda etapa, considerando que a base que utilizaremos será a Coughvid, iremos verificar se existem dados faltantes e faremos o pré-processamento dos áudios (inicialmente, pensamos em transformar os áudios em imagens e trabalharmos com algoritmos que lidam com esse tipo de dados).
+Na segunda etapa, considerando que a base que utilizaremos será a Coughvid, iremos verificar se existem dados faltantes e faremos o pré-processamento dos áudios (inicialmente, pensamos em transformar os áudios em imagens e trabalhar com algoritmos que lidam com esse tipo de dados).
 
-Na terceira etapa, iremos análisar possíveis padrões nos dados, tanto nos dados anotados quanto nas imagens geradas.
+Na terceira etapa, iremos análisar possíveis padrões nos dados, tanto nos dados coletados quanto nas imagens geradas.
 
 Na quarta etapa, iremos utilizar classificadores de aprendizado de máquina para fazer a classificação das imagens.
 
@@ -110,22 +125,23 @@ Na quinta etapa, iremos avaliar os resultados obtidos pelos classificadores da q
 -->
 
 # Ferramentas
- Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. 
+ Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. Para complementar as análises exploratórias e estatísticas, usaramos também a ferramenta SPSS.
 
 # Cronograma
 <!--
 > Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
 -->
-Tomando como base a metodologia do KDD dividimos o cronograma em cada uma de suas etapas abaixo:
+Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de suas etapas abaixo em quinzenas:
 
- |Descrição  | Abril | Maio | Junho |
- |--|--|--|--|
- | Seleção dos dados | X |--|--|
- | Pré-processamento dos dados |--| X |--|
- | Análise exploratória e estatística |--| X | X |
- | Mineração dos dados |--| X | X |
- | Interpretação e conclusão |--|--| X |
- | Apresentação do projeto |--|--| X | 
+ |Descrição  | Abril - Q1 | Abril - Q2 | Maio - Q1 | Maio - Q2 | Junho - Q1 | Junho - Q1 |
+ |--|--|--|--|--|--|--|
+ | Elaboração do plano de projeto | X |--|--|--|--|--|
+ | Seleção dos dados |--| X |--|--|--|--|
+ | Pré-processamento dos dados |--| X | X |--|--|--|
+ | Análise exploratória e estatística |--| X | X |--|--|--|
+ | Mineração dos dados |--|--|--|--|--|--|
+ | Interpretação e conclusão |--|--|--|--|--|--|
+ | Apresentação do projeto |--|--|--|--|--|--|
 
 # Referências
 
