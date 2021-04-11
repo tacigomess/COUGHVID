@@ -41,8 +41,8 @@ Segue abaixo o modelo de como devem ser documentadas as entregas.
 
 # Modelo para Apresentação do Projeto
 
-# Projeto `<Avaliação do Diagnóstico de COVID-19 baseado em características da tosse>`
-# Project `<Evaluation of COVID-19 Diagnosis based on cough characteristics>`
+# Projeto - Diagnóstico de COVID-19 baseado em características da tosse>
+# Project -COVID-19 Diagnosis based on cough characteristics>
 
 
 # Apresentação
@@ -80,12 +80,12 @@ Referências
 > Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).
 
 # Perguntas de Pesquisa
-> É possível realizar o diagnóstico de COVID-19 através da análise de gravações de áudio com características da tosse de uma pessoa? 
-> Existem padrões de sinal de tosse que podem ser reconhecidos e caracterizar uma condição clínica de COVID-19?
-> Quais são as diferenças no áudio da tosse de uma pessoa com COVID-19 em comparação com outra pessoa sem essa condição clínica? 
+1. É possível realizar o diagnóstico de COVID-19 através da análise de gravações de áudio com características da tosse de uma pessoa? 
+2. Existem padrões de sinal de tosse que podem ser reconhecidos e caracterizar uma condição clínica de COVID-19?
+3. Quais são as diferenças no áudio da tosse de uma pessoa com COVID-19 em comparação com outra pessoa sem essa condição clínica? 
 
-Hipótese nula: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são os mesmos.
-Hipótese alternativa: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são diferentes. 
+* Hipótese nula: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são os mesmos.
+* Hipótese alternativa: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são diferentes. 
 
 
 # Bases de Dados
@@ -122,8 +122,9 @@ Na quinta etapa, iremos avaliar os resultados obtidos pelos classificadores da q
  Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. 
 
 # Cronograma
+<!--
 > Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
-
+-->
 Tomando como base a metodologia do KDD dividimos o cronograma em cada uma de suas etapas abaixo:
 
  |Descrição  | Abril | Maio | Junho |
@@ -135,3 +136,4 @@ Tomando como base a metodologia do KDD dividimos o cronograma em cada uma de sua
  | Interpretação e conclusão |--|--| X |
  | Apresentação do projeto |--|--| X | 
 
+# Referências
