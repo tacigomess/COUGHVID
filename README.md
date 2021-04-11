@@ -84,7 +84,7 @@ Referências
 2. Existem padrões de sinal de tosse que podem ser reconhecidos e caracterizar uma condição clínica de COVID-19?
 3. Quais são as diferenças no áudio da tosse de uma pessoa com COVID-19 em comparação com outra pessoa sem essa condição clínica? 
 
-* Hipótese nula: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são os mesmos.
+* Hipótese nula: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são as mesmas.
 * Hipótese alternativa: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são diferentes. 
 
 
