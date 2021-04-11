@@ -1,5 +1,7 @@
+<!--
 # COUGHVID
 Projeto que faz parte da disciplina da UNICAMP de Ciência e Visualização de Dados em Saúde.
+-->
 <!--
 # Diagnóstico de COVID-19 baseado em características da tosse 
 -->
@@ -115,11 +117,11 @@ Para realizar a atividade proposta, seguiremos a abordagem do *Knowledgment Disc
 
 Na segunda etapa, considerando que a base que utilizaremos será a Coughvid, iremos verificar se existem dados faltantes e faremos o pré-processamento dos áudios (inicialmente, pensamos em transformar os áudios em imagens e trabalhar com algoritmos que lidam com esse tipo de dados).
 
-Na terceira etapa, iremos análisar possíveis padrões nos dados, tanto nos dados coletados quanto nas imagens geradas.
+Na terceira etapa, analisaremos possíveis padrões nos dados, tanto nos dados coletados quanto nas imagens geradas.
 
-Na quarta etapa, iremos utilizar classificadores de aprendizado de máquina para fazer a classificação das imagens.
+Na quarta etapa, utilizaremos classificadores de aprendizado de máquina para fazer a classificação das imagens.
 
-Na quinta etapa, iremos avaliar os resultados obtidos pelos classificadores da quarta etapa. Caso seja necessário, podemos retornar às etapas anteriores (segunda, terceira ou quarta etapa).
+Na quinta etapa, avaliaremos os resultados obtidos pelos classificadores da quarta etapa. Caso seja necessário, podemos retornar às etapas anteriores (segunda, terceira ou quarta etapa).
 <!--
 > Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
 -->
