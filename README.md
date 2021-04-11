@@ -1,7 +1,7 @@
 # COUGHVID
 Projeto que faz parte da disciplina da UNICAMP de Ciência e Visualização de Dados em Saúde.
 
-# Avaliação do Diagnóstico de COVID-19 baseado em características da tosse 
+# Diagnóstico de COVID-19 baseado em características da tosse 
 
 # Projeto - Primeira Entrega
 
@@ -41,8 +41,8 @@ Segue abaixo o modelo de como devem ser documentadas as entregas.
 
 # Modelo para Apresentação do Projeto
 
-# Projeto - Diagnóstico de COVID-19 baseado em características da tosse>
-# Project -COVID-19 Diagnosis based on cough characteristics>
+# Projeto - Diagnóstico de COVID-19 baseado em características da tosse
+# Project -COVID-19 Diagnosis based on cough characteristics
 
 
 # Apresentação
@@ -67,15 +67,6 @@ Seria inviável tanto no quesito da logística quanto financeiro a construção 
 
 Para tanto, utilizaremos dados que são compostos de 20.000 registros de áudio de pacientes apresentando uma variedade de idade, gêneros, localização geográfica, e se o paciente está ou não infectado com o COVID-19, dentre eles 2000 registros contém anotações médicas extras. 
 
-
-
-Referências
-
-1- https://www.nature.com/articles/s41467-020-18685-1
-
-2- https://ieeexplore.ieee.org/document/9208795
-
-3- https://www.nature.com/articles/s41746-020-00372-6
  
 > Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).
 
@@ -84,7 +75,7 @@ Referências
 2. Existem padrões de sinal de tosse que podem ser reconhecidos e caracterizar uma condição clínica de COVID-19?
 3. Quais são as diferenças no áudio da tosse de uma pessoa com COVID-19 em comparação com outra pessoa sem essa condição clínica? 
 
-* Hipótese nula: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são as mesmas.
+* Hipótese nula: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são os mesmos.
 * Hipótese alternativa: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são diferentes. 
 
 
@@ -93,7 +84,7 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 * [Coughvid](https://zenodo.org/record/4048312#.YGzbTD9v-Uk)
 * [Virufy COVID-19](https://github.com/virufy/virufy-data)
 
-Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 17 áudios da Virufy COVID-19), além de possuir 3.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como se apresentou febre ou dor no corpo e se possuia algum tipo de condição respiratória (estes dados foram anotados pelo próprio paciente).
+Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 17 áudios da Virufy COVID-19), além de possuir 3.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios pacientes).
 <!-- 
 > Elencar bases de dados candidatas a serem utilizadas no projeto. 
 -->
@@ -130,10 +121,16 @@ Tomando como base a metodologia do KDD dividimos o cronograma em cada uma de sua
  |Descrição  | Abril | Maio | Junho |
  |--|--|--|--|
  | Seleção dos dados | X |--|--|
- | Pré-processamento dos dados | X | X |--|
+ | Pré-processamento dos dados |--| X |--|
  | Análise exploratória e estatística |--| X | X |
  | Mineração dos dados |--| X | X |
  | Interpretação e conclusão |--|--| X |
  | Apresentação do projeto |--|--| X | 
 
 # Referências
+
+1- https://www.nature.com/articles/s41467-020-18685-1
+
+2- https://ieeexplore.ieee.org/document/9208795
+
+3- https://www.nature.com/articles/s41746-020-00372-6
