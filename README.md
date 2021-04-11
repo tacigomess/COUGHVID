@@ -135,13 +135,13 @@ Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de su
 
  |Entregas| Descrição  | Abril - Q1 | Abril - Q2 | Maio - Q1 | Maio - Q2 | Junho - Q1 | Junho - Q2 |
  |--|--|--|--|--|--|--|--|
- | **Entrega 1**|Elaboração do plano de projeto | X |--|--|--|--|--|
- | **Entrega 2**|Seleção dos dados |--| X |--|--|--|--|
+ | **Entrega 1 - 13/04**|Elaboração do plano de projeto | X |--|--|--|--|--|
+ | **Entrega 2 - 11/05**|Seleção dos dados |--| X |--|--|--|--|
  | |Pré-processamento dos dados |--| X | X |--|--|--|
  | |Análise exploratória e estatística |--| X | X |--|--|--|
- | **Entrega 3**|Mineração dos dados |--|--|--| X | X |--|
+ | **Entrega 3 - 24/06**|Mineração dos dados |--|--|--| X | X |--|
  | |Interpretação e conclusão |--|--|--| X | X |--|
- | **Entrega 4**|Apresentação do projeto |--|--|--|--|--| X |
+ | **Apresentações**|Apresentação do projeto |--|--|--|--|--| X |
 
 # Referências
 
