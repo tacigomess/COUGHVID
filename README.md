@@ -108,10 +108,11 @@ Na quinta etapa, iremos avaliar os resultados obtidos pelos classificadores da q
 # Cronograma
 > Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
 > |Descrição  | Abril | Maio | Junho |
+> |--|--|--|--|
 > | Seleção dos dados | X |--|--|
 > | Pré-processamento dos dados |--| X |--|
 > | Análise exploratória e estatística |--| X | X |
 > | Mineração dos dados |--| X | X |
 > | Interpretação e conclusão |--|--| X |
-> | Apresentação do projeto |--|--| X |
+> | Apresentação do projeto |--|--| X | 
 
