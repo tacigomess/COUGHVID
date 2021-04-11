@@ -98,8 +98,8 @@ Para tanto, utilizaremos dados que são compostos de 20.000 registros de áudio 
 
 # Bases de Dados
 Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candidatas a serem usadas no projeto. Encontramos duas bases candidatas:
-* [Coughvid](https://zenodo.org/record/4048312#.YGzbTD9v-Uk)
-* [Virufy COVID-19](https://github.com/virufy/virufy-data)
+* [Coughvid](https://zenodo.org/record/4048312#.YGzbTD9v-Uk) [4]
+* [Virufy COVID-19](https://github.com/virufy/virufy-data) [5]
 
 Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 17 áudios da Virufy COVID-19), além de possuir 3.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios pacientes).
 <!-- 
@@ -147,8 +147,19 @@ Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de su
 
 # Referências
 
+[1] Jin, C., Chen, W., Cao, Y. et al. Development and evaluation of an artificial intelligence system for COVID-19 diagnosis. Nat Commun **11**, 5088 (2020).
+
+[2] Laguarta, J., Hueto, F. and B. Subirana. COVID-19 Artificial Intelligence Diagnosis Using Only Cough Recordings. IEEE Open Journal of Engineering in Medicine and Biology, vol. 1, pp. 275-281, 2020.
+
+[3] Zoabi, Y., Deri-Rozov, S. & Shomron, N. Machine learning-based prediction of COVID-19 diagnosis based on symptoms. npj Digit. Med. **4**, 3 (2021). 
+
+[4] Orlandic, L., Teijeiro, T., and Atienza, D. The COUGHVID crowdsourcing dataset: A corpus for the study of large-scale cough analysis algorithms. ArXiv, pp. 1-11, 2020.
+
+[5] Fakhry, A., Jiang, X., Xiao, J. et al. Virufy: A Multi-Branch Deep Learning Network for Automated Detection of COVID-19. ArXiv, pp. 1-9, 2021.
+<!--
 1- https://www.nature.com/articles/s41467-020-18685-1
 
 2- https://ieeexplore.ieee.org/document/9208795
 
 3- https://www.nature.com/articles/s41746-020-00372-6
+-->
