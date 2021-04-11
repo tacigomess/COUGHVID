@@ -133,15 +133,15 @@ Na quinta etapa, iremos avaliar os resultados obtidos pelos classificadores da q
 -->
 Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de suas etapas abaixo em quinzenas:
 
- |Descrição  | Abril - Q1 | Abril - Q2 | Maio - Q1 | Maio - Q2 | Junho - Q1 | Junho - Q1 |
- |--|--|--|--|--|--|--|
- | Elaboração do plano de projeto | X |--|--|--|--|--|
- | Seleção dos dados |--| X |--|--|--|--|
- | Pré-processamento dos dados |--| X | X |--|--|--|
- | Análise exploratória e estatística |--| X | X |--|--|--|
- | Mineração dos dados |--|--|--|--|--|--|
- | Interpretação e conclusão |--|--|--|--|--|--|
- | Apresentação do projeto |--|--|--|--|--|--|
+ |Entregas| Descrição  | Abril - Q1 | Abril - Q2 | Maio - Q1 | Maio - Q2 | Junho - Q1 | Junho - Q2 |
+ |--|--|--|--|--|--|--|--|
+ | **Entrega 1**|Elaboração do plano de projeto | X |--|--|--|--|--|
+ | **Entrega 2**|Seleção dos dados |--| X |--|--|--|--|
+ | |Pré-processamento dos dados |--| X | X |--|--|--|
+ | |Análise exploratória e estatística |--| X | X |--|--|--|
+ | **Entrega 3**|Mineração dos dados |--|--|--| X | X |--|
+ | |Interpretação e conclusão |--|--|--| X | X |--|
+ | **Entrega 4**|Apresentação do projeto |--|--|--|--|--| X |
 
 # Referências
 
