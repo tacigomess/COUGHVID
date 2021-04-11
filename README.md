@@ -70,8 +70,11 @@ Para tanto, utilizaremos dados que são compostos de 20.000 registros de áudio 
 
 
 Referências
+
 1- https://www.nature.com/articles/s41467-020-18685-1
+
 2- https://ieeexplore.ieee.org/document/9208795
+
 3- https://www.nature.com/articles/s41746-020-00372-6
  
 > Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).
