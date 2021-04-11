@@ -130,7 +130,7 @@ Tomando como base a metodologia do KDD dividimos o cronograma em cada uma de sua
  |Descrição  | Abril | Maio | Junho |
  |--|--|--|--|
  | Seleção dos dados | X |--|--|
- | Pré-processamento dos dados |--| X |--|
+ | Pré-processamento dos dados | X | X |--|
  | Análise exploratória e estatística |--| X | X |
  | Mineração dos dados |--| X | X |
  | Interpretação e conclusão |--|--| X |
