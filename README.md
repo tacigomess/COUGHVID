@@ -125,7 +125,7 @@ Na quinta etapa, iremos avaliar os resultados obtidos pelos classificadores da q
 -->
 
 # Ferramentas
- Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. Para complementar as análises exploratórias e estatísticas, usaramos também a ferramenta SPSS.
+ Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. Para complementar as análises exploratórias e estatísticas, usaremos também a ferramenta SPSS.
 
 # Cronograma
 <!--
