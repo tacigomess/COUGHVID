@@ -86,7 +86,8 @@ Seria inviável tanto no quesito da logística quanto financeiro a construção 
 Para tanto, utilizaremos dados que são compostos de 20.000 registros de áudio de pacientes apresentando uma variedade de idade, gêneros, localização geográfica, e se o paciente está ou não infectado com o COVID-19, dentre eles 2000 registros contém anotações médicas extras. 
 
  
-> Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).
+Link para vídeo de apresentação da proposta do projeto : https://drive.google.com/drive/u/0/folders/1znCpgNPrqk4aGGgDN6nzV0LorW9Wq4hi
+
 
 # Perguntas de Pesquisa
 1. É possível realizar o diagnóstico de COVID-19 através da análise de gravações de áudio com características da tosse de uma pessoa? 
