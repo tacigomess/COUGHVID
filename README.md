@@ -3,7 +3,7 @@
 Projeto que faz parte da disciplina da UNICAMP de Ciência e Visualização de Dados em Saúde.
 -->
 <!--
-# Diagnóstico de COVID-19 baseado em características da tosse 
+#  Análise de condições clínicas respiratórias com base em anotações médicas e áudios de tosse 
 -->
 <!--
 # Projeto - Primeira Entrega
@@ -59,8 +59,8 @@ Segue abaixo o modelo de como devem ser documentadas as entregas.
 <!--
 # Modelo para Apresentação do Projeto
 -->
-# Projeto - Diagnóstico de COVID-19 baseado em características da tosse
-# Project - COVID-19 Diagnosis based on cough characteristics
+# Projeto -  Análise de condições clínicas respiratórias com base em anotações médicas e áudios de tosse
+# Project - Analysis of respiratory clinical conditions based on physician notes and cough audios 
 
 
 # Apresentação
@@ -90,12 +90,9 @@ Link para vídeo de apresentação da proposta do projeto : https://drive.google
 
 
 # Perguntas de Pesquisa
-1. É possível realizar o diagnóstico de COVID-19 através da análise de gravações de áudio com características da tosse de uma pessoa? 
-2. Existem padrões de sinal de tosse que podem ser reconhecidos e caracterizar uma condição clínica de COVID-19?
-3. Quais são as diferenças no áudio da tosse de uma pessoa com COVID-19 em comparação com outra pessoa sem essa condição clínica? 
-
-* Hipótese nula: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são os mesmos.
-* Hipótese alternativa: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são diferentes. 
+1.	É possível identificar condições clínicas respiratórias através de anotações médicas e padrões de áudios de tosse?  
+2.	Há associação entre o diagnóstico do especialista e a classificação do áudio de acordo com uma análise particular do indivíduo?
+3.	Quais são as condições clínicas do sistema respiratório que podem ser associadas com o diagnóstico de COVID-19? 
 
 
 # Bases de Dados
