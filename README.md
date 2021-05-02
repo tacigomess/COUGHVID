@@ -1,4 +1,4 @@
-<!-- Teste Brunna
+<!--
 # COUGHVID
 Projeto que faz parte da disciplina da UNICAMP de Ciência e Visualização de Dados em Saúde.
 -->
