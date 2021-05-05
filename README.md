@@ -95,6 +95,7 @@ Link para vídeo de apresentação da proposta do projeto : https://drive.google
 3.	Quais são as condições clínicas do sistema respiratório que podem ser associadas com o diagnóstico de COVID-19? 
 
 Hipótese nula: A tosse de indivíduos com a mesma condição clínica possui o mesmo padrão de som. 
+
 Hipótese alternativa: A tosse de indivíduos com a mesma condição clínica possui padrões de som diferentes. 
 
 
