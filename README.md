@@ -3,7 +3,7 @@
 Projeto que faz parte da disciplina da UNICAMP de Ciência e Visualização de Dados em Saúde.
 -->
 <!--
-# Diagnóstico de COVID-19 baseado em características da tosse 
+#  Análise de condições clínicas respiratórias com base em anotações médicas e áudios de tosse 
 -->
 <!--
 # Projeto - Primeira Entrega
@@ -59,8 +59,8 @@ Segue abaixo o modelo de como devem ser documentadas as entregas.
 <!--
 # Modelo para Apresentação do Projeto
 -->
-# Projeto - Diagnóstico de COVID-19 baseado em características da tosse
-# Project - COVID-19 Diagnosis based on cough characteristics
+# Projeto -  Análise de condições clínicas respiratórias com base em anotações médicas e áudios de tosse
+# Project - Analysis of respiratory clinical conditions based on physician notes and cough audios 
 
 
 # Apresentação
@@ -86,15 +86,17 @@ Seria inviável tanto no quesito da logística quanto financeiro a construção 
 Para tanto, utilizaremos dados que são compostos de 20.000 registros de áudio de pacientes apresentando uma variedade de idade, gêneros, localização geográfica, e se o paciente está ou não infectado com o COVID-19, dentre eles 2000 registros contém anotações médicas extras. 
 
  
-> Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).
+Link para vídeo de apresentação da proposta do projeto : https://drive.google.com/file/d/1DRkbzs9tnc_VRzRQwNYXgOeBPn6Aj942/view?usp=sharing
+
 
 # Perguntas de Pesquisa
-1. É possível realizar o diagnóstico de COVID-19 através da análise de gravações de áudio com características da tosse de uma pessoa? 
-2. Existem padrões de sinal de tosse que podem ser reconhecidos e caracterizar uma condição clínica de COVID-19?
-3. Quais são as diferenças no áudio da tosse de uma pessoa com COVID-19 em comparação com outra pessoa sem essa condição clínica? 
+1.	É possível identificar condições clínicas respiratórias através de anotações médicas e padrões de áudios de tosse?  
+2.	Há associação entre o diagnóstico do especialista e a classificação do áudio de acordo com uma análise particular do indivíduo?
+3.	Quais são as condições clínicas do sistema respiratório que podem ser associadas com o diagnóstico de COVID-19? 
 
-* Hipótese nula: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são os mesmos.
-* Hipótese alternativa: As características do áudio de tosse de uma pessoa com COVID-19 e sem COVID-19 são diferentes. 
+Hipótese nula: Há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
+
+Hipótese alternativa: Não há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
 
 
 # Bases de Dados
@@ -139,7 +141,7 @@ Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de su
  |Entregas| Descrição  | Abril - Q1 | Abril - Q2 | Maio - Q1 | Maio - Q2 | Junho - Q1 | Junho - Q2 |
  |--|--|--|--|--|--|--|--|
  | **Entrega 1 - 13/04**|Elaboração do plano de projeto | X ||||||
- | **Entrega 2 - 11/05**|Seleção dos dados || X |||||
+ | **Entrega 2 - 11/05**|Seleção dos dados || X | X ||||
  | |Pré-processamento dos dados || X | X ||||
  | |Análise exploratória e estatística || X | X ||||
  | **Entrega 3 - 24/06**|Mineração dos dados |||| X | X ||
