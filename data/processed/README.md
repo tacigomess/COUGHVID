@@ -1,0 +1,3 @@
+# Dados Processados
+
+A partir da base de dados [Coughvid](https://zenodo.org/record/4048312#.YGzbTD9v-Uk), geramos os mel espectrogramas dos áudios e dividimos os dados em treinamento, validação e teste. Devido ao limite de armazenamento do Github, as imagens de mel espectrograma podem ser encontradas nesse [link](). A pasta CSV contém os dados orginais (original.csv), os áudios para treinamento verificados por especialistas (train.csv), os áudios para validação verificados por especialistas (val.csv), os áudios para teste verificados por especialistas (teste.csv) e os áudios para treinamento não verificados por especialistas (train_additional_data.csv)
