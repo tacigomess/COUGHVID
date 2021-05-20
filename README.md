@@ -104,7 +104,15 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 * [Coughvid](https://zenodo.org/record/4048312#.YGzbTD9v-Uk) [4]
 * [Virufy COVID-19](https://github.com/virufy/virufy-data) [5]
 
-Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 17 áudios da Virufy COVID-19), além de possuir 3.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios pacientes).
+## Base Estudada mas não Adotada
+|Base de Dados|Endereço na Web|Resumo Descritivo|
+|-|-|-|
+|Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 pacientes, indicando o resultado do teste PCR, |
+| | | o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
+
+## Base Estudada e Adotada
+
+Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir 3.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios pacientes).
 <!-- 
 > Elencar bases de dados candidatas a serem utilizadas no projeto. 
 -->
