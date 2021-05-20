@@ -109,9 +109,14 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 |-|-|-|
 |Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 pacientes, indicando o resultado do teste PCR, o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
 
-## Base Estudada e Adotada
+Escolhemos não adotar esta base de dados devido a pouca quantidade de amostras, comparado com a base Coughvid. Além disso, a base não possui a verificação da tosse por especialistas (por exemplo, se a tosse é seca ou carregada).
 
-Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir 3.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios pacientes).
+## Base Estudada e Adotada
+|Base de Dados|Endereço na Web|Resumo Descritivo|
+|-|-|-|
+|Coughvid|https://zenodo.org/record/4048312#.YGzbTD9v-Uk | A base de dados contém anotações de mais de 20.000 pacientes, possuindo o áudio da tosse, informações de idade e gênero, se possui condição respiratória e dores musculares ou febre. Além disso, existem mais de 2.000 áudios verificados por especialistas, indicando diversas características dos áudios de tosse, como o tipo de tosse, se é uma tosse seca ou carregada e a qualidade do áudio|
+
+Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios pacientes).
 <!-- 
 > Elencar bases de dados candidatas a serem utilizadas no projeto. 
 -->
