@@ -107,8 +107,7 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 ## Base Estudada mas não Adotada
 |Base de Dados|Endereço na Web|Resumo Descritivo|
 |-|-|-|
-|Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 pacientes, indicando o resultado do teste PCR, |
-| | | o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
+|Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 pacientes, indicando o resultado do teste PCR, o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
 
 ## Base Estudada e Adotada
 
