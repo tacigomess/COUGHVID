@@ -94,9 +94,9 @@ Link para vídeo de apresentação da proposta do projeto : https://drive.google
 2.	Há associação entre o diagnóstico do especialista e a classificação do áudio de acordo com uma análise particular do indivíduo?
 3.	Quais são as condições clínicas do sistema respiratório que podem ser associadas com o diagnóstico de COVID-19? 
 
-Hipótese nula: Há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
+Hipótese nula: Não há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
 
-Hipótese alternativa: Não há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
+Hipótese alternativa: Há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
 
 
 # Bases de Dados
@@ -142,7 +142,7 @@ Na quinta etapa, avaliaremos os resultados obtidos pelos classificadores da quar
 -->
 
 # Ferramentas
- Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. Para complementar as análises exploratórias e estatísticas, usaremos também a ferramenta SPSS.
+ Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. Para complementar as análises exploratórias e estatísticas, usaremos também as ferramentas Orange e SPSS.
 
 # Cronograma
 <!--
