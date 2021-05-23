@@ -121,6 +121,18 @@ Em seguida, analisamos a quantidade de dados por gênero. Ao todo, 10 dos 16 dad
 
 ![Quantidade por gênero](/assets/figures/VirufyCOVID-19/GeneroXQuantidade.png)
 
+Na sequência, verificamos a quantidade de amostras de pacientes do gênero masculino em relação ao teste de COVID-19. Existem 5 amostras com resultado positivo e 5 com resultado negativo na base de dados.
+
+![Quantidade de teste masculino](/assets/figures/VirufyCOVID-19/GeneroXQuantidade-Masculino.png)
+
+Assim como os pacientes do gênero masculino, analisamos os dados do gênero feminino. Constatamos 4 pacientes do gênero feminino com teste negativo e 2 com teste positivo.
+
+![Quantidade de teste feminino](/assets/figures/VirufyCOVID-19/GeneroXQuantidade-Feminino.png)
+
+Ao final, transformamos as variáveis *medical_history* e *patient_reported_symptoms* no formato *one-hot encoding* e calculamos a correlação entre as variáveis. Em relação a variável *corona_test*, o maior valor obtido foi igual a 0,49 com a variável *Shortness_of_breath* (varável originalmente transformada de *patient_reported_symptoms*).
+
+![Correlacao](/assets/figures/VirufyCOVID-19/Correlacao.png)
+
 Escolhemos não adotar esta base de dados devido a pouca quantidade de amostras, comparado com a base Coughvid. Além disso, a base não possui a verificação da tosse por especialistas (por exemplo, se a tosse é seca ou carregada).
 
 ## Base Estudada e Adotada
