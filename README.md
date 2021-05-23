@@ -123,11 +123,11 @@ Em seguida, analisamos a quantidade de dados por gênero. Ao todo, 10 dos 16 dad
 
 Na sequência, verificamos a quantidade de amostras de pacientes do gênero masculino em relação ao teste de COVID-19. Existem 5 amostras com resultado positivo e 5 com resultado negativo na base de dados.
 
-![Quantidade de teste masculino](/assets/figures/VirufyCOVID-19/GeneroXQuantidade-Masculino.png)
+![Quantidade de teste masculino](/assets/figures/VirufyCOVID-19/TesteXQuantidade-Masculino.png)
 
 Assim como os pacientes do gênero masculino, analisamos os dados do gênero feminino. Constatamos 4 pacientes do gênero feminino com teste negativo e 2 com teste positivo.
 
-![Quantidade de teste feminino](/assets/figures/VirufyCOVID-19/GeneroXQuantidade-Feminino.png)
+![Quantidade de teste feminino](/assets/figures/VirufyCOVID-19/TesteXQuantidade-Feminino.png)
 
 Ao final, transformamos as variáveis *medical_history* e *patient_reported_symptoms* no formato *one-hot encoding* e calculamos a correlação entre as variáveis. Em relação a variável *corona_test*, o maior valor obtido foi igual a 0,49 com a variável *Shortness_of_breath* (varável originalmente transformada de *patient_reported_symptoms*).
 
