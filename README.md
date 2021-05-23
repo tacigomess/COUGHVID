@@ -110,7 +110,7 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 |Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 pacientes, indicando o resultado do teste PCR, o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
 
 Iniciamos a análise da base de dados verificando a quantidade de testes positivos e testes negativos para COVID-19. O gráfico a seguir detalha visualmente esta análise. Ao todo, a base possui 9 dados com a classificação negativa e 7 dados com a classificação positiva para COVID-19.
-![Quantidade de amostras x Resultado de teste](/assets/figures/Virufy\COVID-19/TesteXQuantidade.png)
+![Quantidade de amostras x Resultado de teste](/assets/figures/VirufyCOVID-19/TesteXQuantidade.png)
 
 Escolhemos não adotar esta base de dados devido a pouca quantidade de amostras, comparado com a base Coughvid. Além disso, a base não possui a verificação da tosse por especialistas (por exemplo, se a tosse é seca ou carregada).
 
