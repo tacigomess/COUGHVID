@@ -109,8 +109,17 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 |-|-|-|
 |Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 pacientes, indicando o resultado do teste PCR, o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
 
+A base de dados contém ao todo 16 amostras. Para cada amostra, existem diversas informações: data da gravação (variável *date*), resultado do exame PCR de COVID-19 (variável *corona_test*), idade do paciente (variável *age*), gênero (variável *gender*), o histórico médico (variável *medical_history*, que pode conter diversas condições), se é um paciente fumante (variável *smoker*), os sintomas do paciente (variável *patient_reported_symptoms*, que pode conter diversos sintomas) e o arquivo de tosse (variável *cough_filename*).
+
+![Amostras](/assets/figures/VirufyCOVID-19/Amostras.png)
+
 Iniciamos a análise da base de dados verificando a quantidade de testes positivos e testes negativos para COVID-19. O gráfico a seguir detalha visualmente esta análise. Ao todo, a base possui 9 dados com a classificação negativa e 7 dados com a classificação positiva para COVID-19.
+
 ![Quantidade de amostras x Resultado de teste](/assets/figures/VirufyCOVID-19/TesteXQuantidade.png)
+
+Em seguida, analisamos a quantidade de dados por gênero. Ao todo, 10 dos 16 dados são de homens e o restante são de mulheres. O gráfico abaixo apresenta visualmente o resultado.
+
+![Quantidade por gênero](/assets/figures/VirufyCOVID-19/GeneroXQuantidade.png)
 
 Escolhemos não adotar esta base de dados devido a pouca quantidade de amostras, comparado com a base Coughvid. Além disso, a base não possui a verificação da tosse por especialistas (por exemplo, se a tosse é seca ou carregada).
 
