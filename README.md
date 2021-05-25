@@ -148,7 +148,7 @@ Na quinta etapa, avaliaremos os resultados obtidos pelos classificadores da quar
  
 # Resultados 
 
-Os resultados inciais estão (aqui)[https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados.pdf].
+Os resultados inciais estão [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados.pdf).
 
 A tabela abaixo sumariza os resultados até agora
 
