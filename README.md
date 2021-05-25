@@ -109,7 +109,7 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 |-|-|-|
 |Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 pacientes, indicando o resultado do teste PCR, o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
 
-A análise de dados da base Virufy pode ser encontrada [aqui](/assets/pdf/VirufyCovid-19/Analise\ Virufy\ COVID-19.pdf).
+A análise de dados da base Virufy pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/VirufyCOVID-19/Analise%20Virufy%20COVID-19.pdf).
 
 Escolhemos não adotar esta base de dados devido a pouca quantidade de amostras, comparado com a base Coughvid. Além disso, a base não possui a verificação da tosse por especialistas (por exemplo, se a tosse é seca ou carregada).
 
