@@ -148,6 +148,15 @@ Na quinta etapa, avaliaremos os resultados obtidos pelos classificadores da quar
  
 # Resultados 
 
+Os resultados inciais estão (aqui)[https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados.pdf].
+
+A tabela abaixo sumariza os resultados até agora
+
+| Rede | Experimento | Acurácia balanceada na validação (%)|
+|--|--|--|
+| InceptionResNetv2 | Com apenas dados de especialistas | 42,63 |
+| MobileNet | Com dados adicionais | 42,50 |
+
 # Cronograma
 <!--
 > Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
