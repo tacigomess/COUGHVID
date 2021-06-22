@@ -161,6 +161,9 @@ Na sequência, analisamos os dados de indivíduos que tiveram os áudios analisa
 Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. <!--Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por indivíduo, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios indivíduos). Elencar bases de dados candidatas a serem utilizadas no projeto. -->
 
 # Análises Realizadas
+## Experimentos Realizados
+Dividimos os experimentos em duas vertentes: predição da situação do índividuo a partir do áudio da tosse e predição da situação do índividuo a partir das anotações de especialistas.
+
 
 ## Ferramentas
 Para o desenvolvimento do projeto, utilizamos a linguagem de programação Python, junto com algumas bibliotecas, como tensorflow, sklearn, numpy, pandas e matplotlib, e o ambiente virtual Google Colab. Além do Python, utilizamos a ferramenta Orange.
