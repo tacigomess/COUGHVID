@@ -77,13 +77,13 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 # Descrição Resumida do Projeto
-Diante de uma situação pandêmica onde várias linhas de frente estão atuando para  descoberta e elaboração de testes de COVID-19 [1] [2] [3] mais rápidos e acessíveis para toda a população, com o objetivo de um maior controle contra a propagação do vírus. Decidimos trabalhar com uma proposta de teste rápido, não invasivo e em tempo real para o diagnóstico do COVID-19 baseando-nos tanto no áudio como nas características da tosse do paciente.
+Diante de uma situação pandêmica onde várias linhas de frente estão atuando para  descoberta e elaboração de testes de COVID-19 [1] [2] [3] mais rápidos e acessíveis para toda a população, com o objetivo de um maior controle contra a propagação do vírus. Decidimos trabalhar com uma proposta de teste rápido, não invasivo e em tempo real para o diagnóstico do COVID-19 baseando-nos tanto no áudio como nas características da tosse do indivíduo.
 
 A rápida detecção de uma pessoa com COVID-19 favorece a diminuição dos níveis de surtos locais, além da possibilidade do resguardo de vidas pela detecção da doença através de um sintoma que pode ser manifestado nos estágios iniciais, levando a pessoa a procurar ajuda mais rápido.
 
 Seria inviável tanto no quesito da logística quanto financeiro a construção de testes físicos para toda população de um país utilizar diariamente ou sempre que for ter contato com outra pessoa. Com esse objetivo, estudos estão sendo feitos com o uso da Inteligência Artificial para tornar viável os testes rápidos, não invasivos e diários para a população. Assumindo assim um controle maior da situação durante a pandemia.
 
-Para tanto, utilizaremos dados que são compostos de cerca de 2.000 registros de áudio de pacientes apresentando uma variedade de idade, gêneros, localização geográfica, onde cada um dos dados foi avaliado por um especialista. 
+Para tanto, utilizaremos dados que são compostos de cerca de 2.000 registros de áudio de indivíduos apresentando uma variedade de idade, gêneros, localização geográfica, onde cada um dos dados foi avaliado por um especialista. 
 
 # Vídeos do Projeto
 ## Vídeo da Proposta
@@ -141,7 +141,7 @@ Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candi
 ## Base Estudada mas não Adotada
 |Base de Dados|Endereço na Web|Resumo Descritivo|
 |-|-|-|
-|Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 pacientes, indicando o resultado do teste PCR, o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
+|Virufy COVID-19|https://github.com/virufy/virufy-data | A base de dados contém anotações de 16 indivíduos, indicando o resultado do teste PCR, o áudio da tosse, a idade, gênero, se é fumante, o histórico médico e os sintomas reportados |
 
 A análise de dados da base Virufy pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/VirufyCOVID-19/Analise%20Virufy%20COVID-19.pdf).
 
@@ -150,11 +150,13 @@ Escolhemos não adotar esta base de dados devido a pouca quantidade de amostras,
 ## Base Estudada e Adotada
 |Base de Dados|Endereço na Web|Resumo Descritivo|
 |-|-|-|
-|Coughvid|https://zenodo.org/record/4048312#.YGzbTD9v-Uk | A base de dados contém anotações de mais de 20.000 pacientes, possuindo o áudio da tosse, informações de idade e gênero, se possui condição respiratória e dores musculares ou febre. Além disso, existem mais de 2.000 áudios verificados por especialistas, indicando diversas características dos áudios de tosse, como o tipo de tosse, se é uma tosse seca ou carregada e a qualidade do áudio|
+|Coughvid|https://zenodo.org/record/4048312#.YGzbTD9v-Uk | A base de dados contém anotações de mais de 20.000 indivíduos, possuindo o áudio da tosse, informações de idade e gênero, se possui condição respiratória e dores musculares ou febre. Além disso, existem mais de 2.000 áudios verificados por especialistas, indicando diversas características dos áudios de tosse, como o tipo de tosse, se é uma tosse seca ou carregada e a qualidade do áudio|
 
-A análise de dados da base Coughvid pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20Coughvid.pdf).
+Primeiro, realizamos a ánalise da base completa, ou seja, com todos os 20.000 indivíduos. A análise de dados da base Coughvid completa pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20base%20completa.pdf).
 
-Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por paciente, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios pacientes).
+Na sequência, analisamos os dados de indivíduos que tiveram os áudios analisados por especialistas. A análise pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20anotacoes%20especialistas.pdf).
+
+Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por indivíduo, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios indivíduos).
 <!-- 
 > Elencar bases de dados candidatas a serem utilizadas no projeto. 
 -->
