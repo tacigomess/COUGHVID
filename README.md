@@ -85,9 +85,18 @@ Seria inviável tanto no quesito da logística quanto financeiro a construção 
 
 Para tanto, utilizaremos dados que são compostos de 20.000 registros de áudio de pacientes apresentando uma variedade de idade, gêneros, localização geográfica, e se o paciente está ou não infectado com o COVID-19, dentre eles 2000 registros contém anotações médicas extras. 
 
- 
+# Vídeos do Projeto
+## Vídeo da Proposta
 Link para vídeo de apresentação da proposta do projeto : https://drive.google.com/file/d/1DRkbzs9tnc_VRzRQwNYXgOeBPn6Aj942/view?usp=sharing
 
+## Vídeo da Apresentação final
+
+# Slides do Projeto
+## Slides da Proposta
+
+## Slides da Apresentação Final
+
+# Introdução e Referenciais de Teóricos
 
 # Perguntas de Pesquisa
 1.	É possível identificar condições clínicas respiratórias através de anotações médicas e padrões de áudios de tosse?  
@@ -98,6 +107,27 @@ Hipótese nula: Não há associação entre uma determinada condição clínica 
 
 Hipótese alternativa: Há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
 
+# Objetivos do Projeto
+
+# Metodologia
+Para realizar a atividade proposta, seguiremos a abordagem do *Knowledgment Discovery in Databases* (KDD):
+1. Seleção da base de dados
+2. Limpeza e pré-processamento dos dados
+3. Análise exploratória, análise estatística e visualização dos dados
+4. Mineração de dados
+	* Utilização de algoritmos de aprendizado de máquina
+5. Interpretação e análise dos resultados
+
+Na segunda etapa, considerando que a base que utilizaremos será a Coughvid, iremos verificar se existem dados faltantes e faremos o pré-processamento dos áudios (inicialmente, pensamos em transformar os áudios em imagens e trabalhar com algoritmos que lidam com esse tipo de dados).
+
+Na terceira etapa, analisaremos possíveis padrões nos dados, tanto nos dados coletados quanto nas imagens geradas.
+
+Na quarta etapa, utilizaremos classificadores de aprendizado de máquina para fazer a classificação das imagens.
+
+Na quinta etapa, avaliaremos os resultados obtidos pelos classificadores da quarta etapa. Caso seja necessário, podemos retornar às etapas anteriores (segunda, terceira ou quarta etapa).
+<!--
+> Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
+-->
 
 # Bases de Dados
 Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candidatas a serem usadas no projeto. Encontramos duas bases candidatas:
@@ -125,31 +155,13 @@ Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que te
 > Elencar bases de dados candidatas a serem utilizadas no projeto. 
 -->
 
-# Metodologia
-Para realizar a atividade proposta, seguiremos a abordagem do *Knowledgment Discovery in Databases* (KDD):
-1. Seleção da base de dados
-2. Limpeza e pré-processamento dos dados
-3. Análise exploratória, análise estatística e visualização dos dados
-4. Mineração de dados
-	* Utilização de algoritmos de aprendizado de máquina
-5. Interpretação e análise dos resultados
+# Análises Realizadas
 
-Na segunda etapa, considerando que a base que utilizaremos será a Coughvid, iremos verificar se existem dados faltantes e faremos o pré-processamento dos áudios (inicialmente, pensamos em transformar os áudios em imagens e trabalhar com algoritmos que lidam com esse tipo de dados).
-
-Na terceira etapa, analisaremos possíveis padrões nos dados, tanto nos dados coletados quanto nas imagens geradas.
-
-Na quarta etapa, utilizaremos classificadores de aprendizado de máquina para fazer a classificação das imagens.
-
-Na quinta etapa, avaliaremos os resultados obtidos pelos classificadores da quarta etapa. Caso seja necessário, podemos retornar às etapas anteriores (segunda, terceira ou quarta etapa).
-<!--
-> Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
--->
-
-# Ferramentas
+## Ferramentas
  Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. Para complementar as análises exploratórias e estatísticas, usaremos também as ferramentas Orange e SPSS.
  
 # Resultados 
-
+<!--
 Os resultados inciais estão [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados.pdf).
 
 A tabela abaixo sumariza os resultados até agora
@@ -158,11 +170,14 @@ A tabela abaixo sumariza os resultados até agora
 |--|--|--|
 | InceptionResNetv2 | Com apenas dados de especialistas | 42,63 |
 | MobileNet | Com dados adicionais | 42,50 |
-
-# Cronograma
-<!--
-> Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
 -->
+
+# Discussão
+
+<!--
+# Cronograma
+> Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
+
 Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de suas etapas abaixo em quinzenas:
 
  |Entregas| Descrição  | Abril - Q1 | Abril - Q2 | Maio - Q1 | Maio - Q2 | Junho - Q1 | Junho - Q2 |
@@ -174,6 +189,10 @@ Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de su
  | **Entrega 3 - 24/06**|Mineração dos dados |||| X | X ||
  | |Interpretação e conclusão |||| X | X ||
  | **Apresentações**|Apresentação do projeto |||||| X |
+-->
+# Conclusão
+
+# Trabalhos Futuros
 
 # Referências
 
