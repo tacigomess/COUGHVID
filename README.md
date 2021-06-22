@@ -93,6 +93,7 @@ Link para vídeo de apresentação da proposta do projeto : https://drive.google
 
 # Slides do Projeto
 ## Slides da Proposta
+Link para o power point de apresentação da proposta do projeto: https://drive.google.com/file/d/1hn-KTxZMSYJD9Qvi_0TL7rg_RykUqfDv/view?usp=sharing
 
 ## Slides da Apresentação Final
 
