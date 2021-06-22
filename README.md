@@ -162,7 +162,7 @@ Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que te
 # Análises Realizadas
 
 ## Ferramentas
- Pretendemos utilizar inicialmente o ambiente de notebooks Google Colab junto com a linguagem Python durante o projeto. Para complementar as análises exploratórias e estatísticas, usaremos também as ferramentas Orange e SPSS.
+Para o desenvolvimento do projeto, utilizamos a linguagem de programação Python, junto com algumas bibliotecas, como tensorflow, sklearn, numpy, pandas e matplotlib, e o ambiente virtual Google Colab. Além do Python, utilizamos a ferramenta Orange.
  
 # Resultados 
 <!--
