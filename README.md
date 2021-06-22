@@ -152,12 +152,13 @@ Escolhemos não adotar esta base de dados devido a pouca quantidade de amostras,
 |-|-|-|
 |Coughvid|https://zenodo.org/record/4048312#.YGzbTD9v-Uk | A base de dados contém anotações de mais de 20.000 indivíduos, possuindo o áudio da tosse, informações de idade e gênero, se possui condição respiratória e dores musculares ou febre. Além disso, existem mais de 2.000 áudios verificados por especialistas, indicando diversas características dos áudios de tosse, como o tipo de tosse, se é uma tosse seca ou carregada e a qualidade do áudio|
 
-Primeiro, realizamos a ánalise da base completa, ou seja, com todos os 20.000 indivíduos. A análise de dados da base Coughvid completa pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20base%20completa.pdf).
+Primeiro, realizamos a ánalise da base completa, ou seja, com todos os 20.000 indivíduos. A análise de dados da base Coughvid completa pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20base%20completa.pdf). A figura a seguir apresenta o workflow utilizado.
 
-Na sequência, analisamos os dados de indivíduos que tiveram os áudios analisados por especialistas. A análise pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20anotacoes%20especialistas.pdf).
+![Workflow](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/workflow%20base%20original.png).
 
-Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por indivíduo, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios indivíduos).
-<!-- 
+Na sequência, analisamos os dados de indivíduos que tiveram os áudios analisados por especialistas. A análise pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20base%20anotacoes%20especialistas.pdf).
+
+Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. <!--Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por indivíduo, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios indivíduos).
 > Elencar bases de dados candidatas a serem utilizadas no projeto. 
 -->
 
