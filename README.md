@@ -109,7 +109,7 @@ Hipótese nula: Não há associação entre uma determinada condição clínica 
 Hipótese alternativa: Há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
 
 # Objetivos do Projeto
-Investigar padrões do sinal de áudios de tosse e anotações de especialistas sobre os áudios para o dignóstico de indivíduos entre saudável, sintomático ou COVID-19.
+Investigar padrões do sinal de áudios de tosse e anotações de especialistas sobre os áudios para o diagnóstico de indivíduos entre saudável, sintomático ou COVID-19.
 
 # Metodologia
 Para realizar a atividade proposta, seguimos a abordagem do *Knowledgment Discovery in Databases* (KDD):
@@ -158,9 +158,7 @@ Primeiro, realizamos a ánalise da base completa, ou seja, com todos os 20.000 i
 
 Na sequência, analisamos os dados de indivíduos que tiveram os áudios analisados por especialistas. A análise pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20base%20anotacoes%20especialistas.pdf).
 
-Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. <!--Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por indivíduo, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios indivíduos).
-> Elencar bases de dados candidatas a serem utilizadas no projeto. 
--->
+Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. <!--Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por indivíduo, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios indivíduos). Elencar bases de dados candidatas a serem utilizadas no projeto. -->
 
 # Análises Realizadas
 
@@ -200,6 +198,11 @@ Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de su
 # Conclusão
 
 # Trabalhos Futuros
+Como trabalhos futuros, podemos apontar os seguintes passos:
+* Aquisição de mais dados anotados por especialistas. Com isso, os modelos terão mais dados para treinar, e, eventualmente, terão maiores valores de acurácia balanceada.
+* Investigação de métodos para a criação de dados de forma sintética com outras combinações de dados e de pré-processamento e de tratamento de dados. Deste modo, podemos utilizar os dados já analisados por especialistas para o treinamento do modelo.
+* Investigação de outras técnicas de aprendizado de máquina, como outras opções de ensemble de redes.
+
 
 # Referências
 
