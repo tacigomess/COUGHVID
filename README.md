@@ -83,7 +83,7 @@ A rápida detecção de uma pessoa com COVID-19 favorece a diminuição dos nív
 
 Seria inviável tanto no quesito da logística quanto financeiro a construção de testes físicos para toda população de um país utilizar diariamente ou sempre que for ter contato com outra pessoa. Com esse objetivo, estudos estão sendo feitos com o uso da Inteligência Artificial para tornar viável os testes rápidos, não invasivos e diários para a população. Assumindo assim um controle maior da situação durante a pandemia.
 
-Para tanto, utilizaremos dados que são compostos de 20.000 registros de áudio de pacientes apresentando uma variedade de idade, gêneros, localização geográfica, e se o paciente está ou não infectado com o COVID-19, dentre eles 2000 registros contém anotações médicas extras. 
+Para tanto, utilizaremos dados que são compostos de cerca de 2.000 registros de áudio de pacientes apresentando uma variedade de idade, gêneros, localização geográfica, onde cada um dos dados foi avaliado por um especialista. 
 
 # Vídeos do Projeto
 ## Vídeo da Proposta
@@ -109,9 +109,10 @@ Hipótese nula: Não há associação entre uma determinada condição clínica 
 Hipótese alternativa: Há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo. 
 
 # Objetivos do Projeto
+Investigar padrões do sinal de áudios de tosse e anotações de especialistas sobre os áudios para o dignóstico de indivíduos entre saudável, sintomático ou COVID-19.
 
 # Metodologia
-Para realizar a atividade proposta, seguiremos a abordagem do *Knowledgment Discovery in Databases* (KDD):
+Para realizar a atividade proposta, seguimos a abordagem do *Knowledgment Discovery in Databases* (KDD):
 1. Seleção da base de dados
 2. Limpeza e pré-processamento dos dados
 3. Análise exploratória, análise estatística e visualização dos dados
@@ -119,13 +120,15 @@ Para realizar a atividade proposta, seguiremos a abordagem do *Knowledgment Disc
 	* Utilização de algoritmos de aprendizado de máquina
 5. Interpretação e análise dos resultados
 
-Na segunda etapa, considerando que a base que utilizaremos será a Coughvid, iremos verificar se existem dados faltantes e faremos o pré-processamento dos áudios (inicialmente, pensamos em transformar os áudios em imagens e trabalhar com algoritmos que lidam com esse tipo de dados).
+Na primeira etapa, avaliamos duas bases de dados diferentes e optamos pela base de dados Coughvid.
 
-Na terceira etapa, analisaremos possíveis padrões nos dados, tanto nos dados coletados quanto nas imagens geradas.
+Na segunda etapa, verificamos a existência de dados faltates e fizemos o pré-processamento dos áudios (remoção de dados que não foram avaliados por especialistas e a junção de dados de um mesmo indivíduo, caso mais de um especialista faça a análise daquele caso).
 
-Na quarta etapa, utilizaremos classificadores de aprendizado de máquina para fazer a classificação das imagens.
+Na terceira etapa, exploramos a base de dados para encontrar possíveis padrões que possam ajudar a realizar a categorização correta de cada dado. Ainda nesta etapa, fizemos diversas visualizações dos dados.
 
-Na quinta etapa, avaliaremos os resultados obtidos pelos classificadores da quarta etapa. Caso seja necessário, podemos retornar às etapas anteriores (segunda, terceira ou quarta etapa).
+Na quarta etapa, utilizamos classificadores baseados em imagens para fazer a classificação de áudios e classificadores baseados em dados tabulares para realizar classificação das anotações de especialistas. Em ambos os casos, o objetivo foi predizer corretamente as três possíveis classes (saudável, sintomático e COVID-19).
+
+Na quinta etapa, avaliamos os resultados obtidos pelos classificadores da quarta etapa.
 <!--
 > Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
 -->
