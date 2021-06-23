@@ -168,7 +168,7 @@ Dividimos os experimentos em duas vertentes: predição da situação do indiví
 
 Para os experimentos para a predição da situação do indivíduo a partir do áudio da tosse, exploramos diversas variações de experimentos, sendo eles:
 * Avaliação de 21 redes diferentes com pesos pré-treinados no ImageNet e com um ajuste fino para a nossa base de dados;
-* Pré-processamento dos áudios com 
+* Pré-processamento dos áudios com trim;
 * Pré-processamento dos áudios com a segmentação de trechos que identificam a tosse no áudio;
 * Vision Transformers [6];
 * Stacking ensemble dos modelos;
@@ -184,6 +184,23 @@ Os notebooks com os códigos de cada uma das etapas podem ser encontrados [aqui]
 Para o desenvolvimento do projeto, utilizamos a linguagem de programação Python, junto com algumas bibliotecas, como tensorflow, sklearn, numpy, pandas e matplotlib, e o ambiente virtual Google Colab. Além do Python, utilizamos a ferramenta Orange.
  
 # Resultados 
+
+Todos os resultados dos diversos experimentos usando áudio podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20audios.pdf).
+
+A tabela abaixo sumariza os melhores resultados em cada um dos experimentos no conjunto de validação em termo de acurácia balanceada. O melhor resultado foi obtido pela EfficientNetB7 para a segmentação completa
+
+| Experimento | MEL Spectrogram | MFCC|
+|--|--|--|
+| Transfer Learning com as redes do ImageNet | 41,34 (EfficientNetB7) | 41,42 (EfficientNetB7) |
+| Trim | 42,31 (DenseNet201 - trim de 60) | 40,87 (VGG19 - trim de 90) |
+| Segmentação | 42,77 (VGG19 - segmentação completa) | 43,18 (EfficientNetB7 - segmentação completa) |
+| Transformers | 42,41 | 35,90 |
+| Stacking Ensemble | 28,85 | 33,03 |
+| Aumentação de dados | 34,73 | --- |
+
+Todos os resultados dos experimentos usando dados de especialistas podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20audios.pdf).
+
+
 <!--
 Os resultados inciais estão [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados.pdf).
 
