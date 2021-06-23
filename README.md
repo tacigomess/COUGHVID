@@ -162,8 +162,21 @@ Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que te
 
 # Análises Realizadas
 ## Experimentos Realizados
-Dividimos os experimentos em duas vertentes: predição da situação do índividuo a partir do áudio da tosse e predição da situação do índividuo a partir das anotações de especialistas.
+Dividimos os experimentos em duas vertentes: predição da situação do indivíduo a partir do áudio da tosse e predição da situação do indivíduo a partir das anotações de especialistas. Em ambos os experimentos, utilizamos apenas dados que foram verificados por especialistas.
 
+Para os experimentos para a predição da situação do indivíduo a partir do áudio da tosse, exploramos diversas variações de experimentos, sendo eles:
+* Avaliação de 21 redes diferentes com pesos pré-treinados no ImageNet e com um ajuste fino para a nossa base de dados;
+* Pré-processamento dos áudios com 
+* Pré-processamento dos áudios com a segmentação de trechos que identificam a tosse no áudio;
+* Vision Transformers [6];
+* Stacking ensemble dos modelos;
+* Aumentação dos dados, gerando novos dados a partir dos dados originais.
+
+Para os experimentos para a predição da situação do indivíduo a partir das anotações de especialistas, exploramos diversas variações de experimentos, sendo eles:
+* Avaliação de árvore de decisão, floresta aleatória e máquina de vetores de suporte;
+* Grid Search dos modelos.
+
+Os notebooks com os códigos de cada uma das etapas podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/tree/main/notebooks).
 
 ## Ferramentas
 Para o desenvolvimento do projeto, utilizamos a linguagem de programação Python, junto com algumas bibliotecas, como tensorflow, sklearn, numpy, pandas e matplotlib, e o ambiente virtual Google Colab. Além do Python, utilizamos a ferramenta Orange.
@@ -218,6 +231,8 @@ Como trabalhos futuros, podemos apontar os seguintes passos:
 [4] Orlandic, L., Teijeiro, T., and Atienza, D. The COUGHVID crowdsourcing dataset: A corpus for the study of large-scale cough analysis algorithms. ArXiv, pp. 1-11, 2020.
 
 [5] Fakhry, A., Jiang, X., Xiao, J. et al. Virufy: A Multi-Branch Deep Learning Network for Automated Detection of COVID-19. ArXiv, pp. 1-9, 2021.
+
+[6] Dosovitskiy, A., Beyer, L., Kolesnikov, A. et al. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. ArXiv, pp. 1-22. 2020.
 <!--
 1- https://www.nature.com/articles/s41467-020-18685-1
 
