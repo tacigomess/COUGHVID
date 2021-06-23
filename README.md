@@ -202,8 +202,19 @@ Com a melhor rede selecionada, fizemos a avaliação no conjunto de teste. Como 
 
 ![Matriz confusão](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/matriz-confusao-audio.png)
 
-Todos os resultados dos experimentos usando dados de especialistas podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20audios.pdf).
+Todos os resultados dos experimentos usando dados de especialistas podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20anotacoes%20especialistas.pdf).
 
+A tabela abaixo sumariza os melhores resultados no conjunto de validação em termo de acurácia balanceada. O melhor resultado foi obtido pela árvore de decisão, atingindo 36,46% de acurácia balanceada na validação.
+
+| Classificador | Acurácia balanceada |
+|--|--|
+| Árvore de decisão | 36,46 |
+| Floresta Aleatória | 35,60 |
+| Máquina de vetores de suporte | 36,44 |
+
+Com a melhor classificador selecionado, fizemos a avaliação no conjunto de teste. Como resultado, obtivemos 32,75% de acurácia balanceada. A figura abaixo ilustra a matriz de confusão.
+
+![Matriz confusão](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/matriz-confusao-especialista.png)
 
 <!--
 Os resultados inciais estão [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados.pdf).
