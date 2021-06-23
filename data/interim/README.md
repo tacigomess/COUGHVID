@@ -1,1 +1,14 @@
 Dados intermediários (resultados de transformações)
+
+
+| Nome da base                                                                  | Link para acesso                                                                   | Breve descrição                                                                     | PASTA   |
+|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------|
+| audio_wav                                                                     | https://drive.google.com/file/d/1ve0h_a7V5ZSP6P1TVjlN-Lu8sN8z2UmZ/view?usp=sharing | Arquivo com os .wav das tosses                                                      | interim |
+| audios_wav_especialistas.zip                                                  | https://drive.google.com/file/d/1iNBLFXyiS4kiJkPZJb_9-KO-LRYS4Z7V/view?usp=sharing | Arquivo com os áudios .wav dos especialistas                                        | interim |
+| audios_trim90_especialistas.zip                                               | https://drive.google.com/file/d/1FAEdZPbBur3fmv1mOrjIoqOytnwkAq4R/view?usp=sharing | Arquivo wav com o trim de 90 db dos áudios do especialista                          | interim |
+| audios_trim60_especialistas.zip                                               | https://drive.google.com/file/d/1anZYp0WbtLr-2oYTU_ToB5vmrcDeFzru/view?usp=sharing | Arquivo wav com o trim de 60 db dos áudios do especialista                          | interim |
+| audios_trim40_especialistas.zip                                               | https://drive.google.com/file/d/1hoP_iJE4Ie3eJukxvxQa-_CRl9KbSKUA/view?usp=sharing | Arquivo wav com o trim de 40 db dos áudios do especialista                          | interim |
+| audios_especialistas_plus_adicional_8750.zip                                  | https://drive.google.com/file/d/1YOx_SiP0RT_2M9FKUK0HeDWPcx_mihGO/view?usp=sharing | Arquivo com os áudios em formato .wav do especialista + adicional                   | interim |
+| audios_segmentado_concatenado_especialistas_completo.zip                      | https://drive.google.com/file/d/11GLpN7I0TXORlztveSQoc430r35gWaEJ/view?usp=sharing | Arquivo com os áudios .wav dos especialistas com a segmentação completa             | interim |
+| audios_segmentados_concatenados_especialistas_completo_default_parameters.zip | https://drive.google.com/file/d/1K6-8-JVw0qzi41LPVkxEXutyPBpVepJC/view?usp=sharing | Arquivo com os áudios .wav dos especialistas com a segmentação default              | interim |
+| audios_segmentados_concatenados_especialistas_plus_adicional_completo.zip     | https://drive.google.com/file/d/1YjBbYdWgnIKJZBatMFKfoDyOnxaPoDC_/view?usp=sharing | Arquivo com os áudios .wav dos especialistas + adicional com a segmentação completa | interim |
