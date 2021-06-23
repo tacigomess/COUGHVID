@@ -21,8 +21,7 @@ Nesta pasta, estão todos os notebooks usados para o desenvolvimento do projeto.
 │
 ├── Predição com dados de especialistas     <- Experimentos com dados anotados por especialistas
 │
-├── Utils
+├── Utils                                   <- Notebooks uteis para o projeto, como divisão da base e geração de imagens
 │ 
-│
 └── Análise da base Virufy COVID-19         <- Análise da base de dados Virufy COVID-19   
 ```
