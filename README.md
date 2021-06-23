@@ -156,7 +156,7 @@ Primeiro, realizamos a ánalise da base completa, ou seja, com todos os 20.000 i
 
 ![Workflow](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/workflow%20base%20original.png).
 
-Na sequência, analisamos os dados de indivíduos que tiveram os áudios analisados por especialistas. A análise pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20base%20anotacoes%20especialistas.pdf). A figura a seguir apresenta o workflow utilizado.
+Na sequência, analisamos os dados de indivíduos que tiveram os áudios analisados por especialistas. Fizemos um filtro (cough_detected > 0.50) para selecionar apenas as amostras com chance de representar áudio de tosse maior que 50%. A análise pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20base%20anotacoes%20especialistas.pdf). A figura a seguir apresenta o workflow utilizado.
 
 ![Workflow](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/WORKFLOW_ORANGE_cough_detected.jpg).
 
