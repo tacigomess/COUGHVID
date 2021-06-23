@@ -216,14 +216,6 @@ Com 0 melhor classificador selecionado, fizemos a avaliação no conjunto de tes
 
 ![Matriz confusão](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/matriz-confusao-especialista.png)
 
-Para avaliarmos a concordância entre o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas, utilizamos a métrica detalahada a seguir.
-
-![metrica](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/equation.jpg)
-
-Nesta métrica, N00 indica que tanto o o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas erraram na avaliação, N01 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse acertou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas errou na avaliação, N10 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse errou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas acertou na avaliação e N11 indica que ambos acertaram. O maior valor possível é 1, indicando que os preditores se discordam, e o menor valor possível é 0, indicando que se concordam.
-
-Para esta avaliação, utilizamos as predições no conjunto de teste. Como resultado, obtivemos o valor igual a 0,53, o que mostra que exite um meio termo, ou seja, não existe uma concordância e nem uma discondância entre os dois classificadores.
-
 <!--
 Os resultados inciais estão [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados.pdf).
 
@@ -236,7 +228,13 @@ A tabela abaixo sumariza os resultados até agora
 -->
 
 # Discussão
+Para avaliarmos a concordância entre o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas, utilizamos a métrica detalahada a seguir.
 
+![metrica](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/equation.jpg)
+
+Nesta métrica, N00 indica que tanto o o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas erraram na avaliação, N01 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse acertou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas errou na avaliação, N10 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse errou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas acertou na avaliação e N11 indica que ambos acertaram. O maior valor possível é 1, indicando que os preditores se discordam, e o menor valor possível é 0, indicando que se concordam.
+
+Para esta avaliação, utilizamos as predições no conjunto de teste. Como resultado, obtivemos o valor igual a 0,53, o que mostra que exite um meio termo, ou seja, não existe uma concordância e nem uma discondância entre os dois classificadores.
 
 
 <!--
@@ -256,8 +254,18 @@ Tomando como base a metodologia do KDD, dividimos o cronograma em cada uma de su
  | **Apresentações**|Apresentação do projeto |||||| X |
 -->
 # Conclusão
-A partir da análise dos dados através de ferramentas diversas, desde o Orange até redes convolucionais, pudemos observar uma discrepância entre a avaliação dos especialistas e a classificação do próprio indivíduo em relação à sua condição de saúde. Três especialistas avaliaram os áudios de tosse com base nos seguintes sintomas: falta de ar (dispneia), respiração ofegante, dificuldade para respirar (asfixia) e congestão nasal. Os resultados mostraram que foram atribuídos pesos diferentes para cada sintoma, levando a um diagnóstico final não necessariamente coincidente entre os especialistas. 
+A partir da análise dos dados através de ferramentas diversas, desde o Orange até redes convolucionais, pudemos observar uma discrepância entre a avaliação dos especialistas e a classificação do próprio indivíduo em relação à sua condição de saúde. Três especialistas avaliaram os áudios de tosse com base nos seguintes sintomas: falta de ar (dispneia), respiração ofegante, dificuldade para respirar (asfixia) e congestão nasal. Os resultados mostraram que foram atribuídos pesos diferentes para cada sintoma, levando a um diagnóstico final não necessariamente coincidente entre os especialistas.
+
 Apesar de haver certa variação no diagnóstico final, é possível identificar características clínicas da saúde do indivíduo no áudio de tosse através da associação do ruído com os sintomas. No entanto, concordamos que para um diagnóstico exato e preciso, testes mais avançados de medicina são necessários.
+
+Voltando as questões de pesquisa, podemos, agora, responde-las:
+1.  É possível identificar condições clínicas respiratórias através de anotações médicas e padrões de áudios de tosse?  
+- Pelos resultados obtido, podemos concluir que as condições clínicas respiratórias podem ser identificadas com maior precisão pelo áudio, já que este tipo de modelo foi capaz de atingir maior generalização. Porém, para um diagnóstico preciso, são necessários exames clínicos.
+
+2.  Há associação entre o diagnóstico do especialista e a classificação do áudio de acordo com uma análise particular do indivíduo?
+- Pelos resultados de concordância entre os classificadores de áudio e de anotações de especialista, podemos concluir que não existe uma associação clara entre as duas abordagens.
+
+3.  Quais são as condições clínicas do sistema respiratório que podem ser associadas com o diagnóstico de COVID-19? 
 
 
 # Trabalhos Futuros
