@@ -212,7 +212,7 @@ A tabela abaixo sumariza os melhores resultados no conjunto de validação em te
 | Floresta Aleatória | 35,60 |
 | Máquina de vetores de suporte | 36,44 |
 
-Com a melhor classificador selecionado, fizemos a avaliação no conjunto de teste. Como resultado, obtivemos 32,75% de acurácia balanceada. A figura abaixo ilustra a matriz de confusão.
+Com 0 melhor classificador selecionado, fizemos a avaliação no conjunto de teste. Como resultado, obtivemos 32,75% de acurácia balanceada. A figura abaixo ilustra a matriz de confusão.
 
 ![Matriz confusão](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/matriz-confusao-especialista.png)
 
