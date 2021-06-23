@@ -187,7 +187,7 @@ Para o desenvolvimento do projeto, utilizamos a linguagem de programação Pytho
 
 Todos os resultados dos diversos experimentos usando áudio podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20audios.pdf).
 
-A tabela abaixo sumariza os melhores resultados em cada um dos experimentos no conjunto de validação em termo de acurácia balanceada. O melhor resultado foi obtido pela EfficientNetB7 para a segmentação completa
+A tabela abaixo sumariza os melhores resultados em cada um dos experimentos no conjunto de validação em termo de acurácia balanceada. O melhor resultado foi obtido pela EfficientNetB7 para a segmentação completa, atingindo 43,18% de acurácia balanceada na validação.
 
 | Experimento | MEL Spectrogram | MFCC|
 |--|--|--|
@@ -197,6 +197,10 @@ A tabela abaixo sumariza os melhores resultados em cada um dos experimentos no c
 | Transformers | 42,41 | 35,90 |
 | Stacking Ensemble | 28,85 | 33,03 |
 | Aumentação de dados | 34,73 | --- |
+
+Com a melhor rede selecionada, fizemos a avaliação no conjunto de teste. Como resultado, obtivemos 39,75% de acurácia balanceada. A figura abaixo ilustra a matriz de confusão.
+
+![Matriz confusão](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/matriz-confusao-audio.png)
 
 Todos os resultados dos experimentos usando dados de especialistas podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20audios.pdf).
 
