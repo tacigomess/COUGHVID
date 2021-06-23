@@ -236,6 +236,10 @@ A tabela abaixo sumariza os resultados até agora
 -->
 
 # Discussão
+A partir da análise dos dados através de ferramentas diversas, desde o Orange até redes convolucionais, pudemos observar uma discrepância entre a avaliação dos especialistas e a classificação do próprio indivíduo em relação à sua condição de saúde. Três especialistas avaliaram os áudios de tosse com base em sintomas como: ...,...,...,..., e os nossos resultados mostraram que pesos diferentes para cada sintoma foram atribuídos, levando a um diagnóstico final não necessariamente coincidente entre os especialistas. 
+Apesar de haver certa variação no diagnóstico final, é possível identificar características clínicas da saúde do indivíduo no áudio de tosse através da associação do ruído com os sintomas. No entanto, concordamos que para um diagnóstico exato e preciso, testes mais avançados de medicina são necessários.
+
+
 
 <!--
 # Cronograma
