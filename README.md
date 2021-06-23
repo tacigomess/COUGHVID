@@ -216,6 +216,14 @@ Com a melhor classificador selecionado, fizemos a avaliação no conjunto de tes
 
 ![Matriz confusão](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/matriz-confusao-especialista.png)
 
+Para avaliarmos a concordância entre o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas, utilizamos a métrica detalahada a seguir.
+
+![metrica](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/equation.jpg)
+
+Nesta métrica, N00 indica que tanto o o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas erraram na avaliação, N01 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse acertou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas errou na avaliação, N10 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse errou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas acertou na avaliação e N11 indica que ambos acertaram. O maior valor possível é 1, indicando que os preditores se discordam, e o menor valor possível é 0, indicando que se concordam.
+
+Para esta avaliação, utilizamos as predições no conjunto de teste. Como resultado, obtivemos o valor igual a 0,53, o que mostra que exite um meio termo, ou seja, não existe uma concordância e nem uma discondância entre os dois classificadores.
+
 <!--
 Os resultados inciais estão [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados.pdf).
 
