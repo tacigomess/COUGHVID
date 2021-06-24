@@ -161,7 +161,7 @@ Primeiro, realizamos a ánalise da base completa, ou seja, com todos os 20.000 i
 
 Na sequência, analisamos os dados de indivíduos que tiveram os áudios analisados por especialistas. Fizemos um filtro (cough_detected > 0.50) para selecionar apenas as amostras com chance de representar áudio de tosse maior que 50%. A análise pode ser encontrada [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Analise%20base%20anotacoes%20especialistas.pdf). A figura a seguir apresenta o workflow utilizado.
 
-![Work flow](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/WORKFLOW_ORANGE_cough_detected.jpg).
+![Workflow](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/WORKFLOW_ORANGE_cough_detected_.jpg).
 
 Dentre essas duas bases, acreditamos que a base Coughvid é a melhor, já que tem mais amostras (20.000 áudios vs. 16 áudios da Virufy COVID-19), além de possuir mais de 2.000 dados verificados por especialistas. <!--Outro ponto positivo para a base Coughvid é que a base possui informações adicionais por indivíduo, como por exemplo se apresentou febre ou dor no corpo e se possuia alguma condição respiratória (estes dados foram relatados pelos próprios indivíduos). Elencar bases de dados candidatas a serem utilizadas no projeto. -->
 
