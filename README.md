@@ -77,7 +77,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 # Descrição Resumida do Projeto
-Diante de uma situação pandêmica onde várias linhas de frente estão atuando para  descoberta e elaboração de testes de COVID-19 [1] [2] [3] mais rápidos e acessíveis para toda a população, com o objetivo de um maior controle contra a propagação do vírus. Decidimos trabalhar com uma proposta de teste rápido, não invasivo e em tempo real para o diagnóstico do COVID-19 baseando-nos tanto no áudio como nas características da tosse do indivíduo.
+Diante de uma situação pandêmica de COVID-19, diversos profissionais atuam para expansão do conhecimento sobre sintomas clínicos e combate ao vírus. Muitos estudos mostraram avanço nos testes de diagnóstico para COVID-19 [1] [2] [3] mais rápidos e acessíveis para toda a população, com o objetivo de maior controle contra a propagação do vírus. Decidimos investigar uma proposta de detecção dos sintomas de COVID-19 ou outra síndrome respiratória assim como avaliação da severidade da condiçao clínica através de áudios de tosse enviados pelo próprio indivíduo ao profissional de saúde. 
 
 A rápida detecção de uma pessoa com COVID-19 favorece a diminuição dos níveis de surtos locais, além da possibilidade do resguardo de vidas pela detecção da doença através de um sintoma que pode ser manifestado nos estágios iniciais, levando a pessoa a procurar ajuda mais rápido.
 
