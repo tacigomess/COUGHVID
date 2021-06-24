@@ -77,9 +77,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 # Descrição Resumida do Projeto
-Diante de uma situação pandêmica de COVID-19, diversos profissionais atuam para expansão do conhecimento sobre sintomas clínicos e combate ao vírus. Muitos estudos mostraram avanço nos testes de diagnóstico para COVID-19 mais rápidos e acessíveis para toda a população, com o objetivo de maior controle contra a propagação do vírus. Dentre as abordagens, o diagnóstico por áudio da tosse pode ajudar na detecção de COVID-19. 
-
-Neste trabalho, investigamos a base de dados Coughvid, que possui áudios de tosse de mais de 20.000 indivíduos, onde cerca de 2.000 deles foram avaliados por especialistas. Realizamos diversas análise em relação as características da base, como a idade e gênero dos indivíduos, além das anotações dos especialistas. Utilizamos, também, classificadores de aprendizado de máquina para fazer a predição de indivíduos em relação aos áudios e as anotações de especialistas. Ao final, nosso método atingiu 39,75% de acurácia balanceada no teste a partir da classificação de áudios e 32,75% a partir da classificação usando as anotações de especialistas, mostrando que este problema não é trivial.
+Com a pandemia do COVID-19, diversos profissionais atuam para expansão do conhecimento sobre sintomas clínicos e combate ao vírus, como no desenvolvimento de testes de diagnóstico para COVID-19 mais rápidos e acessíveis para toda a população. Dentre as abordagens, o diagnóstico por áudio da tosse pode ajudar na detecção de COVID-19. Neste trabalho, investigamos a base de dados Coughvid, que possui áudios de tosse de mais de 20.000 indivíduos, onde cerca de 2.000 deles foram avaliados por especialistas. Realizamos diversas análise em relação as características da base, como a idade e gênero dos indivíduos, além das anotações dos especialistas. Utilizamos, também, classificadores de aprendizado de máquina para fazer a predição de indivíduos em relação aos áudios e as anotações de especialistas. Ao final, nosso método atingiu 39,75% de acurácia balanceada no teste a partir da classificação de áudios e 32,75% a partir da classificação usando as anotações de especialistas, mostrando que este problema não é trivial.
 
 # Vídeos do Projeto
 ## Vídeo da Proposta
@@ -96,11 +94,19 @@ Link para o power point de apresentação da proposta do projeto: https://drive.
 Link para o power point de apresentação final: https://drive.google.com/file/d/1pI9Lj003CHq587_1DyvBgYs_lRRV0vRb/view?usp=sharing
 
 # Introdução e Referenciais de Teóricos
-Diante de uma situação pandêmica de COVID-19, diversos profissionais atuam para expansão do conhecimento sobre sintomas clínicos e combate ao vírus. Muitos estudos mostraram avanço nos testes de diagnóstico para COVID-19 [1] [2] [3] mais rápidos e acessíveis para toda a população, com o objetivo de maior controle contra a propagação do vírus. Decidimos investigar uma proposta de detecção dos sintomas de COVID-19 ou outra síndrome respiratória assim como avaliação da severidade da condiçao clínica através de áudios de tosse enviados pelo próprio indivíduo ao profissional de saúde. 
+Diante de uma situação pandêmica de COVID-19, diversos profissionais atuam para expansão do conhecimento sobre sintomas clínicos e combate ao vírus. Muitos estudos mostraram avanço nos testes de diagnóstico para COVID-19 [1] [2] [3] mais rápidos e acessíveis para toda a população, com o objetivo de maior controle contra a propagação do vírus. A rápida detecção de uma pessoa com COVID-19 favorece a diminuição dos níveis de surtos locais, além da possibilidade do resguardo de vidas pela detecção da doença através de um sintoma que pode ser manifestado nos estágios iniciais, levando a pessoa a procurar ajuda mais rápido.
 
-A rápida detecção de uma pessoa com COVID-19 favorece a diminuição dos níveis de surtos locais, além da possibilidade do resguardo de vidas pela detecção da doença através de um sintoma que pode ser manifestado nos estágios iniciais, levando a pessoa a procurar ajuda mais rápido.
+Seria inviável tanto no quesito da logística quanto financeiro a construção de testes físicos para toda população de um país utilizar diariamente ou sempre que for ter contato com outra pessoa. Com esse objetivo, estudos estão sendo feitos com o uso da Inteligência Artificial para tornar viável os testes rápidos, não invasivos e diários para a população, assumindo, assim, um controle maior da situação durante a pandemia.
 
-Seria inviável tanto no quesito da logística quanto financeiro a construção de testes físicos para toda população de um país utilizar diariamente ou sempre que for ter contato com outra pessoa. Com esse objetivo, estudos estão sendo feitos com o uso da Inteligência Artificial para tornar viável os testes rápidos, não invasivos e diários para a população. Assumindo assim um controle maior da situação durante a pandemia.
+
+
+
+
+Decidimos investigar uma proposta de detecção dos sintomas de COVID-19 ou outra síndrome respiratória assim como avaliação da severidade da condiçao clínica através de áudios de tosse enviados pelo próprio indivíduo ao profissional de saúde. 
+
+
+
+
 
 Para tanto, utilizaremos dados que são compostos de cerca de 2.000 registros de áudio de indivíduos apresentando uma variedade de idade, gêneros, localização geográfica, onde cada um dos dados foi avaliado por um especialista. 
 
@@ -272,6 +278,8 @@ Voltando as questões de pesquisa, podemos, agora, responde-las:
 
 3.  Quais são as condições clínicas do sistema respiratório que podem ser associadas com o diagnóstico de COVID-19? 
 - Não existe um consenso entre os três especialistas que anotaram os dados. Cada um deles indicou uma condição como a principal, a partir da análise feita com regressão logística. Para o especialista 1, a principal condição para indicar condição clínica grave foi a presentação de dispneia, enquanto para o especialista 2 foi a presenção da sensação de asfixia e para o especialista 3 foi a presença de respiração ofegante. Portanto, podemos concluir que essas são as três principais condições clínicas para indicar condição clínica grave.
+
+Em relação às hipóteses levantadas, podemos confirmar a hipótese alternativa, indicando que há associação entre uma determinada condição clínica respiratória e o padrão de tosse do indivíduo.
 
 # Trabalhos Futuros
 Como trabalhos futuros, podemos apontar os seguintes passos:
