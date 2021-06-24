@@ -77,7 +77,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 # Descrição Resumida do Projeto
-Com a pandemia do COVID-19, diversos profissionais atuam para expansão do conhecimento sobre sintomas clínicos e combate ao vírus, como no desenvolvimento de testes de diagnóstico para COVID-19 mais rápidos e acessíveis para toda a população. Dentre as abordagens, o diagnóstico por áudio da tosse pode ajudar na detecção de COVID-19. Neste trabalho, investigamos a base de dados Coughvid, que possui áudios de tosse de mais de 20.000 indivíduos, onde cerca de 2.000 deles foram avaliados por especialistas. Realizamos diversas análise em relação as características da base, como a idade e gênero dos indivíduos, além das anotações dos especialistas. Utilizamos, também, classificadores de aprendizado de máquina para fazer a predição de indivíduos em relação aos áudios e as anotações de especialistas. Ao final, nosso método atingiu 39,75% de acurácia balanceada no teste a partir da classificação de áudios e 32,75% a partir da classificação usando as anotações de especialistas, mostrando que este problema não é trivial.
+Com a pandemia do COVID-19, diversos profissionais atuam para expansão do conhecimento sobre sintomas clínicos e combate ao vírus, como no desenvolvimento de testes de diagnóstico para COVID-19 mais rápidos e acessíveis para toda a população. Dentre as abordagens, o diagnóstico por áudio da tosse pode ajudar na detecção de COVID-19. Neste trabalho, investigamos a base de dados Coughvid, que possui áudios de tosse de mais de 20.000 indivíduos, onde cerca de 2.000 deles foram avaliados por especialistas. Realizamos diversas análises em relação as características da base, como a idade e gênero dos indivíduos, além das anotações dos especialistas. Utilizamos, também, classificadores de aprendizado de máquina para fazer a predição de indivíduos em relação aos áudios e as anotações de especialistas. Ao final, nosso método atingiu 39,75% de acurácia balanceada no teste a partir da classificação de áudios e 32,75% a partir da classificação usando as anotações de especialistas, mostrando que este problema não é trivial.
 
 # Vídeos do Projeto
 ## Vídeo da Proposta
@@ -100,7 +100,7 @@ Seria inviável tanto no quesito da logística quanto financeiro a construção 
 
 Na literatura, podemos encontrar diversos trabalhos que realizam a classificação de áudio em relação ao COVID-19. Pal e Sankarasubbu [4] criaram um método que realiza a classificação de áudios da tosse a partir de dados tabulares e de áudios de tosse. Laguarta et al. [2] e Bagad et al. [5] apresentaram métodos usando redes convolucionais para o diagnóstico de COVID-19 utilizando apenas o áudio de tosse. 
 
-Levando em conta a utilização de inteligência artificial no diagnóstico utilizando áudio da tosse, resolvemos explorar a base de dados Coughvid [6], que, além de possuir mais de 20.000 áudios de tosses, cerca de 2.000 deles foram verificados por especialistas, validando a origem dos dados. Nas nossas análises, decidimos investigar a detecção dos sintomas de COVID-19 ou outra síndrome respiratória assim como avaliação da severidade da condiçao clínica através de áudios de tosse enviados pelo próprio indivíduo ao profissional de saúde. Para tanto, utilizamos dados que são compostos de cerca de 2.000 registros de áudio de indivíduos apresentando uma variedade de idade, gêneros, localização geográfica, onde cada um deles foi avaliado por um especialista. 
+Levando em conta a utilização de inteligência artificial no diagnóstico utilizando áudio da tosse, resolvemos explorar a base de dados Coughvid [6], que, além de possuir mais de 20.000 áudios de tosses, cerca de 2.000 deles foram verificados por especialistas, validando a origem dos dados. Nas nossas análises, decidimos investigar a detecção dos sintomas de COVID-19, assim como avaliação da severidade da condiçao clínica, através de áudios de tosse enviados pelo próprio indivíduo ao profissional de saúde. Para tanto, utilizamos dados que são compostos de cerca de 2.000 registros de áudio de indivíduos apresentando uma variedade de idade, gêneros, localização geográfica, onde cada um deles foi avaliado por um especialista. 
 
 # Perguntas de Pesquisa
 1.	É possível identificar condições clínicas respiratórias através de anotações médicas e padrões de áudios de tosse?  
@@ -123,7 +123,7 @@ Para realizar a atividade proposta, seguimos a abordagem do *Knowledgment Discov
 	* Utilização de algoritmos de aprendizado de máquina
 5. Interpretação e análise dos resultados
 
-Na primeira etapa, avaliamos duas bases de dados diferentes e optamos pela base de dados Coughvid.
+Na primeira etapa, avaliamos duas bases de dados diferentes e optamos pela base de dados Coughvid [6].
 
 Na segunda etapa, verificamos a existência de dados faltates e fizemos o pré-processamento dos áudios (remoção de dados que não foram avaliados por especialistas e a junção de dados de um mesmo indivíduo, caso mais de um especialista faça a análise daquele caso).
 
@@ -205,7 +205,7 @@ Com a melhor rede selecionada, fizemos a avaliação no conjunto de teste. Como 
 
 ![Matriz confusão](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/matriz-confusao-audio.png)
 
-Todos os resultados dos experimentos usando dados de especialistas podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20anotacoes%20especialistas.pdf).
+Todos os resultados dos experimentos usando as anotações de especialistas podem ser encontrados [aqui](https://github.com/tacigomess/COUGHVID/blob/main/assets/pdf/Coughvid/Resultados%20anotacoes%20especialistas.pdf).
 
 A tabela abaixo sumariza os melhores resultados no conjunto de validação em termo de acurácia balanceada. O melhor resultado foi obtido pela árvore de decisão, atingindo 36,46% de acurácia balanceada na validação.
 
@@ -215,7 +215,7 @@ A tabela abaixo sumariza os melhores resultados no conjunto de validação em te
 | Floresta Aleatória | 35,60 |
 | Máquina de vetores de suporte | 36,44 |
 
-Com 0 melhor classificador selecionado, fizemos a avaliação no conjunto de teste. Como resultado, obtivemos 32,75% de acurácia balanceada. A figura abaixo ilustra a matriz de confusão.
+Com o melhor classificador selecionado, fizemos a avaliação no conjunto de teste. Como resultado, obtivemos 32,75% de acurácia balanceada. A figura abaixo ilustra a matriz de confusão.
 
 ![Matriz confusão](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/matriz-confusao-especialista.png)
 
@@ -231,11 +231,11 @@ A tabela abaixo sumariza os resultados até agora
 -->
 
 # Discussão
-Para avaliarmos a concordância entre o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas, utilizamos a métrica detalahada a seguir.
+Para avaliarmos a concordância entre o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas, utilizamos a métrica detalhada a seguir.
 
 ![metrica](https://github.com/tacigomess/COUGHVID/blob/main/assets/photos/equation.jpg)
 
-Nesta métrica, N00 indica que tanto o o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas erraram na avaliação, N01 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse acertou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas errou na avaliação, N10 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse errou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas acertou na avaliação e N11 indica que ambos acertaram. O maior valor possível é 1, indicando que os preditores se discordam, e o menor valor possível é 0, indicando que se concordam.
+Nesta métrica, N00 indica que tanto o melhor preditor da situação do indivíduo a partir do áudio da tosse e o melhor preditor da situação do indivíduo a partir das anotações de especialistas erraram na avaliação, N01 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse acertou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas errou na avaliação, N10 indica que o melhor preditor da situação do indivíduo a partir do áudio da tosse errou e o melhor preditor da situação do indivíduo a partir das anotações de especialistas acertou na avaliação e N11 indica que ambos acertaram. O maior valor possível é 1, indicando que os preditores se discordam, e o menor valor possível é 0, indicando que se concordam.
 
 Para esta avaliação, utilizamos as predições no conjunto de teste. Como resultado, obtivemos o valor igual a 0,53, o que mostra que exite um meio termo, ou seja, não existe uma concordância e nem uma discondância entre os dois classificadores.
 
@@ -261,9 +261,9 @@ A partir da análise dos dados através de ferramentas diversas, desde o Orange 
 
 Apesar de haver certa variação no diagnóstico final, é possível identificar características clínicas da saúde do indivíduo no áudio de tosse através da associação do ruído com os sintomas. No entanto, concordamos que para um diagnóstico exato e preciso, testes mais avançados de medicina são necessários.
 
-Voltando as questões de pesquisa, podemos, agora, responde-las:
+Voltando as questões de pesquisa, podemos, agora, respondê-las:
 1.  É possível identificar condições clínicas respiratórias através de anotações médicas e padrões de áudios de tosse?  
-- Pelos resultados obtido, podemos concluir que as condições clínicas respiratórias podem ser identificadas com maior precisão pelo áudio, já que este tipo de modelo foi capaz de atingir maior generalização. Porém, para um diagnóstico preciso, são necessários exames clínicos.
+- Pelos resultados obtidos, podemos concluir que as condições clínicas respiratórias podem ser identificadas com maior precisão pelo áudio, já que este tipo de modelo foi capaz de atingir maior generalização. Porém, para um diagnóstico preciso, são necessários exames clínicos.
 
 2.  Há associação entre o diagnóstico do especialista e a classificação do áudio de acordo com uma análise particular do indivíduo?
 - Pelos resultados de concordância entre os classificadores de áudio e de anotações de especialista, podemos concluir que não existe uma associação clara entre as duas abordagens.
