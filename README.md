@@ -96,19 +96,11 @@ Link para o power point de apresentação final: https://drive.google.com/file/d
 # Introdução e Referenciais de Teóricos
 Diante de uma situação pandêmica de COVID-19, diversos profissionais atuam para expansão do conhecimento sobre sintomas clínicos e combate ao vírus. Muitos estudos mostraram avanço nos testes de diagnóstico para COVID-19 [1] [2] [3] mais rápidos e acessíveis para toda a população, com o objetivo de maior controle contra a propagação do vírus. A rápida detecção de uma pessoa com COVID-19 favorece a diminuição dos níveis de surtos locais, além da possibilidade do resguardo de vidas pela detecção da doença através de um sintoma que pode ser manifestado nos estágios iniciais, levando a pessoa a procurar ajuda mais rápido.
 
-Seria inviável tanto no quesito da logística quanto financeiro a construção de testes físicos para toda população de um país utilizar diariamente ou sempre que for ter contato com outra pessoa. Com esse objetivo, estudos estão sendo feitos com o uso da Inteligência Artificial para tornar viável os testes rápidos, não invasivos e diários para a população, assumindo, assim, um controle maior da situação durante a pandemia.
+Seria inviável tanto no quesito da logística quanto financeiro a construção de testes físicos para toda população de um país utilizar diariamente ou sempre que for ter contato com outra pessoa. Com esse objetivo, estudos estão sendo feitos com o uso da inteligência artificial para tornar viável os testes rápidos, não invasivos e diários para a população, assumindo, assim, um controle maior da situação durante a pandemia.
 
+Na literatura, podemos encontrar diversos trabalhos que realizam a classificação de áudio em relação ao COVID-19. Pal e Sankarasubbu [4] criaram um método que realiza a classificação de áudios da tosse a partir de dados tabulares e de áudios de tosse. Laguarta et al. [2] e Bagad et al. [5] apresentaram métodos usando redes convolucionais para o diagnóstico de COVID-19 utilizando apenas o áudio de tosse. 
 
-
-
-
-Decidimos investigar uma proposta de detecção dos sintomas de COVID-19 ou outra síndrome respiratória assim como avaliação da severidade da condiçao clínica através de áudios de tosse enviados pelo próprio indivíduo ao profissional de saúde. 
-
-
-
-
-
-Para tanto, utilizaremos dados que são compostos de cerca de 2.000 registros de áudio de indivíduos apresentando uma variedade de idade, gêneros, localização geográfica, onde cada um dos dados foi avaliado por um especialista. 
+Levando em conta a utilização de inteligência artificial no diagnóstico utilizando áudio da tosse, resolvemos explorar a base de dados Coughvid [6], que, além de possuir mais de 20.000 áudios de tosses, cerca de 2.000 deles foram verificados por especialistas, validando a origem dos dados. Nas nossas análises, decidimos investigar a detecção dos sintomas de COVID-19 ou outra síndrome respiratória assim como avaliação da severidade da condiçao clínica através de áudios de tosse enviados pelo próprio indivíduo ao profissional de saúde. Para tanto, utilizamos dados que são compostos de cerca de 2.000 registros de áudio de indivíduos apresentando uma variedade de idade, gêneros, localização geográfica, onde cada um deles foi avaliado por um especialista. 
 
 # Perguntas de Pesquisa
 1.	É possível identificar condições clínicas respiratórias através de anotações médicas e padrões de áudios de tosse?  
@@ -146,8 +138,8 @@ Na quinta etapa, avaliamos os resultados obtidos pelos classificadores da quarta
 
 # Bases de Dados
 Com as perguntas de pesquisa levantadas, procuramos algumas bases de dados candidatas a serem usadas no projeto. Encontramos duas bases candidatas:
-* [Coughvid](https://zenodo.org/record/4048312#.YGzbTD9v-Uk) [4]
-* [Virufy COVID-19](https://github.com/virufy/virufy-data) [5]
+* [Coughvid](https://zenodo.org/record/4048312#.YGzbTD9v-Uk) [6]
+* [Virufy COVID-19](https://github.com/virufy/virufy-data) [7]
 
 ## Base Estudada mas não Adotada
 |Base de Dados|Endereço na Web|Resumo Descritivo|
@@ -181,7 +173,7 @@ Para os experimentos para a predição da situação do indivíduo a partir do �
 * Avaliação de 21 redes diferentes com pesos pré-treinados no ImageNet e com um ajuste fino para a nossa base de dados;
 * Pré-processamento dos áudios com trim;
 * Pré-processamento dos áudios com a segmentação de trechos que identificam a tosse no áudio;
-* Vision Transformers [6];
+* Vision Transformers [8];
 * Stacking ensemble dos modelos;
 * Aumentação dos dados, gerando novos dados a partir dos dados originais.
 
@@ -292,15 +284,19 @@ Como trabalhos futuros, podemos apontar os seguintes passos:
 
 [1] Jin, C., Chen, W., Cao, Y. et al. Development and evaluation of an artificial intelligence system for COVID-19 diagnosis. Nat Commun **11**, 5088 (2020).
 
-[2] Laguarta, J., Hueto, F. and B. Subirana. COVID-19 Artificial Intelligence Diagnosis Using Only Cough Recordings. IEEE Open Journal of Engineering in Medicine and Biology, vol. 1, pp. 275-281, 2020.
+[2] Laguarta, J., Hueto, F. and Subirana, B. COVID-19 Artificial Intelligence Diagnosis Using Only Cough Recordings. IEEE Open Journal of Engineering in Medicine and Biology, vol. 1, pp. 275-281, 2020.
 
-[3] Zoabi, Y., Deri-Rozov, S. & Shomron, N. Machine learning-based prediction of COVID-19 diagnosis based on symptoms. npj Digit. Med. **4**, 3 (2021). 
+[3] Zoabi, Y., Deri-Rozov, S. and Shomron, N. Machine learning-based prediction of COVID-19 diagnosis based on symptoms. npj Digit. Med. **4**, 3 (2021). 
 
-[4] Orlandic, L., Teijeiro, T., and Atienza, D. The COUGHVID crowdsourcing dataset: A corpus for the study of large-scale cough analysis algorithms. ArXiv, pp. 1-11, 2020.
+[4] Pal, A. and Sankarasubbu, M. Pay Attention to the cough: Early Diagnosis of COVID-19 using Interpretable Symptoms Embeddings with Cough Sound Signal Processing. 36th Annual ACM Symposium on Applied Computing (SAC'21). pp. 620-628, ACM, 2021.
 
-[5] Fakhry, A., Jiang, X., Xiao, J. et al. Virufy: A Multi-Branch Deep Learning Network for Automated Detection of COVID-19. ArXiv, pp. 1-9, 2021.
+[5] Bagad, P., Dalmia, A., Doshi, J. et al. Cough Against COVID: Evidence of COVID-19 Signature in Cough Sounds. ArXiv, pp. 1-12. 2020.
 
-[6] Dosovitskiy, A., Beyer, L., Kolesnikov, A. et al. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. ArXiv, pp. 1-22. 2020.
+[6] Orlandic, L., Teijeiro, T., and Atienza, D. The COUGHVID crowdsourcing dataset: A corpus for the study of large-scale cough analysis algorithms. ArXiv, pp. 1-11, 2020.
+
+[7] Fakhry, A., Jiang, X., Xiao, J. et al. Virufy: A Multi-Branch Deep Learning Network for Automated Detection of COVID-19. ArXiv, pp. 1-9, 2021.
+
+[8] Dosovitskiy, A., Beyer, L., Kolesnikov, A. et al. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. ArXiv, pp. 1-22. 2020.
 <!--
 1- https://www.nature.com/articles/s41467-020-18685-1
 
